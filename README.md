@@ -1,2 +1,2 @@
 # DendroNet
-Supervised learning on phylogeneticallydistributed data
+Supervised learning on phylogenetically distributed data
