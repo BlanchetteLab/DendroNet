@@ -1,0 +1,361 @@
+"""
+A regression experiment using the simulated entangled data
+"""
+
+import os, argparse
+import itertools
+import tensorflow as tf
+import numpy as np
+from utils import generate_default_config, create_directory, dump_dict, plot_losses, log_aucs
+from models.custom_models import RandomEntangledModel, RandomSparseModel
+from data_structures.entangled_data_simulation import BernoulliTree, generate_random_sparse_graph, generate_y_from_sparse_graph
+from experiments.experiment_classes import RegressionExperiment
+from scipy.stats import spearmanr
+
+
+def reshape_weights_to_dict(weights):
+    """
+    :param weights: flat input list or vectr
+    :return: dictionary with the matrix weights for the hidden layer configuration [3, 3, 1]
+    """
+    hidden_weights = dict()
+    hidden_weights['h1'] = np.reshape(np.asarray(weights[0:9]), newshape=(3, 3))  # next 3 weights are biases
+    hidden_weights['h2'] = np.reshape(np.asarray(weights[12:21]), newshape=(3, 3))  # next 3 weights are biases
+    hidden_weights['h3'] = np.asarray(weights[24:28]) # next/final weight is a bias
+    return hidden_weights
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Running entangled delta model experiment')
+    parser.add_argument('--num-steps', type=int, default=10000, metavar='N',
+                        help='number of steps for training (default: 1000)')
+    parser.add_argument('--validation-interval', type=int, default=25, metavar='VI',
+                        help='How often to run validation (default: 25 epochs)')
+    parser.add_argument('--seed', type=int, nargs='+', default=[7, 8, 9, 11], metavar='S',
+                        help='random seed for train/valid split (default: 0)')
+    parser.add_argument('--depth', type=int, default=9, metavar='DE',
+                        help='depth of the simulated tree (default: 8)')
+    parser.add_argument('--num-leaves', type=int, default=1, metavar='L',
+                        help='num samples to generate at each leaf of the tree (default: 1)')
+    parser.add_argument('--delta-penalty-factor', type=float, default=0.1, metavar='D',
+                        help='scaling factor applied to delta term in the loss (default: 1.0)')
+    parser.add_argument('--use-l2', type=bool, default=False, help='Whether or not to apply an L2 penalty (Default: false)')
+    parser.add_argument('--l2-penalty-factor', type=float, default=0.00001, metavar='L2F',
+                        help='scaling factor applied to l2 term in the loss (default: 0.0001)')
+    parser.add_argument('--output-dir', type=str, default='random_sparse_graph', metavar='O',
+                        help='relative path to the directory for the output files (default: random_sparse_graph)')
+    parser.add_argument('--lr', type=float, default=0.001, metavar='LR',
+                        help='learning rate (default: 0.001)')
+    parser.add_argument('--loss-scale', type=float, default=1.0, metavar='LS',
+                        help='weight given to prediction loss (default: 1.0)')
+    args = parser.parse_args()
+
+    config = generate_default_config()
+    args_dict = vars(args)
+    for key in args_dict.keys():
+        if key is not 'seed' and key is not 'seeds':
+            config[key] = args_dict[key]
+
+    # directory removal warning!
+    base_output_dir = os.path.join(os.path.abspath('.'), 'results', args.output_dir)
+    create_directory(base_output_dir, remove_curr=True)
+
+    # need to generate a random sparse causal graph, use it to determine the appropriate y-values for each leaf
+    hidden_units=[3, 3, 1]
+    weights_dim = 28  # 9 + 3 + 9 + 3 + 3 + 1
+    causal_layers_def, valid_weights_dim = generate_random_sparse_graph(3, hidden_units)  # valid_weights_dim -> no bias terms
+
+
+    # preprocessing steps
+    data_tree = BernoulliTree(mutation_rate=0.3, depth=args.depth, num_leaves=args.num_leaves, low=0.0, high=5.0,
+                              mutation_prob=0.15, weights_dim=weights_dim)
+    data_root = data_tree.tree
+    leaves = data_tree.leaves
+
+
+    for leaf in leaves:
+        leaf.x = list(leaf.x)
+        # leaf.x.append(1.0) # adding a bias term
+        leaf.x = np.asarray(leaf.x, dtype=np.float32)
+        leaf.y, leaf.activations = generate_y_from_sparse_graph(inputs=leaf.x, input_weights=np.asarray(leaf.a, dtype=np.float32),
+                                              graph_def=causal_layers_def, num_hidden_units=hidden_units)
+
+    num_features = len(leaves[0].x)
+    output_dim = 1  # hard coded for linear regression
+
+    final_dendro_losses = list()
+    best_dendro_corrs = list()
+    best_dendro_errors = list()
+    best_simple_corrs = list()
+    best_simple_errors = list()
+    best_dendro_activations = list()
+    best_simple_activations = list()
+
+    dendro_best_loss = list()
+    dendro_final_loss = list()
+    simple_best_loss = list()
+    simple_final_loss = list()
+
+
+    if isinstance(args_dict['seed'], int):
+        args_dict['seed'] = [args_dict['seed']]
+    for seed in args_dict['seed']:
+
+        config['seed'] = seed
+        output_dir = os.path.join(base_output_dir, 'seed' + str(seed))
+        # directory removal warning!
+        create_directory(output_dir, remove_curr=True)
+        input_shape = (1, num_features)
+        # dummy_input = tf.zeros((num_features))
+
+        # layer_shape = (num_features, output_dim)
+
+        num_hidden_units = num_features
+        simple_model = RandomSparseModel(output_dim, num_hidden_units, (num_features,))
+
+        tree_model = RandomEntangledModel(data_root, leaves, hidden_dims=hidden_units, layer_shape=weights_dim)
+
+        dump_dict(config, output_dir)
+        experiment = RegressionExperiment(tree_model, simple_model, config, data_root, leaves)
+        dendronet_losses, prediction_losses, validation_losses, _ = experiment.train_dendronet()
+        simple_prediction_losses, simple_validation_losses, _, simple_observed_activations \
+            = experiment.train_simple_model(get_activations=True)
+
+
+        x_label = str(config['validation_interval']) + "s of steps"
+        plot_file = os.path.join(output_dir, 'mutation_loss.png')
+        plot_losses(plot_file, [dendronet_losses],
+                    ['mutation'], x_label)
+        plot_file = os.path.join(output_dir, 'dendronet_prediction_losses.png')
+        plot_losses(plot_file, [prediction_losses, validation_losses],
+                    ['training', 'validation'], x_label)
+        plot_file = os.path.join(output_dir, 'simple_losses.png')
+        plot_losses(plot_file, [simple_prediction_losses, simple_validation_losses], ['training', 'validation'], x_label)
+        final_dendro_losses.append(dendronet_losses[-1] / config['delta_penalty_factor'])
+        print('done experiment with seed ' + str(seed))
+
+        """
+        Retrieving weights and analysing disentanglement metrics for simple model
+        We do not know the configuration of factors->rows, so we charitably analyze the best possible
+        configuration
+        """
+
+        """
+        Retrieving the weights from each leaf and reshaping them
+        For now: hard-coding to the [3, 3, 1] hidden unit configuration
+        """
+        leaf_weight_dicts = list()
+        layer_weights = list()
+        leaf_layers = tree_model.leaf_weights.numpy()
+        for idx in experiment.train_idx:
+            leaf_weight_dicts.append(reshape_weights_to_dict(leaf_layers[idx]))
+        for weights in layer_weights:
+            leaf_weight_dicts.append(reshape_weights_to_dict(weights))
+
+        train_leaves = np.take(leaves, experiment.train_idx)
+        ideal_weight_dicts = list()
+        for leaf in train_leaves:
+            ideal_weight_dicts.append(reshape_weights_to_dict(leaf.a))
+
+
+        simple_corrs = list()
+        simple_errors = list()
+        dendro_errors = list()
+        dendro_corrs = list()
+
+        dendro_activations = list()
+        simple_activations=list()
+
+        # generating configurations - each lis associates a node to a "node ID"
+        conf_h1 = list(itertools.permutations(range(hidden_units[0])))
+        conf_h2 = list(itertools.permutations(range(hidden_units[0])))
+        # layer 3 has one node, and thus does not need configuration shuffling
+        # conf_h3 = list(itertools.permutations(range(hidden_units[0])))
+
+        """
+        for each configuration:
+            across all leaves:
+                collect ideal->observed weight pairs
+                collect sparse errors
+            calculate one correlation
+            calculate average sparse error
+        take best correlation and error
+        """
+
+        """
+        error and correlation for the tree model
+        """
+        for cf1 in conf_h1:
+            for cf2 in conf_h2:
+                error_sum = 0
+                observed_weights = list()  # todo: switch this to activations
+                ideal_weights = list()
+                for leaf, obs_weight, ideal_weight in zip(train_leaves, leaf_weight_dicts, ideal_weight_dicts):
+                    # hidden layer 1
+                    for i, node_id in enumerate(cf1):  # i -> col in ideal weights, node_index -> col in observed
+                        for j in range(num_features):
+                            if j in causal_layers_def[0][i]:  # indicates weight j in column i is causal
+                                ideal_weights.append(ideal_weight['h1'][:, node_id][j])
+                                observed_weights.append(obs_weight['h1'][:, node_id][j])
+                            else:
+                                error_sum += np.abs(obs_weight['h1'][:, node_id][j])
+
+                    # hidden layer 2
+                    for i, node_id in enumerate(cf2):  # i -> col in ideal weights, node_index -> col in observed
+                        for j in range(num_features):
+                            if j in causal_layers_def[1][i]:  # indicates weight j in column i is causal
+                                ideal_weights.append(ideal_weight['h2'][:, node_id][j])
+                                observed_weights.append(obs_weight['h2'][:, node_id][j])
+                            else:
+                                error_sum += np.abs(obs_weight['h2'][:, node_id][j])
+
+                    # hidden layer 3
+                    for j in range(num_features):
+                        if j in causal_layers_def[2]:  # indicates weight j in column i is causal
+                            ideal_weights.append(ideal_weight['h3'][j])
+                            observed_weights.append(obs_weight['h3'][j])
+                        else:
+                            error_sum += np.abs(obs_weight['h3'][j])
+                dendro_errors.append(error_sum / len(train_leaves))
+                dendro_corrs.append(abs(spearmanr(observed_weights, ideal_weights)[0]))
+        best_dendro_errors.append(min(dendro_errors))
+        best_dendro_corrs.append(max(dendro_corrs))
+
+        """
+        error and correlation for the simple model
+        """
+
+        # retrieving the weight matrices from the simple model
+        obs_weight_dict = dict()
+        obs_weight_dict['h1'] = simple_model.trainable_variables[0].numpy()
+        obs_weight_dict['h2'] = simple_model.trainable_variables[2].numpy()
+        obs_weight_dict['h3'] = simple_model.trainable_variables[4].numpy()
+
+        for cf1 in conf_h1:
+            for cf2 in conf_h2:
+                error_sum = 0
+                observed_weights = list()  # todo: switch this to activations
+                ideal_weights = list()
+                for leaf, ideal_weight in zip(train_leaves, ideal_weight_dicts):
+
+                    # hidden layer 1
+                    for i, node_id in enumerate(cf1):  # i -> col in ideal weights, node_index -> col in observed
+                        for j in range(num_features):
+                            if j in causal_layers_def[0][i]:  # indicates weight j in column i is causal
+                                ideal_weights.append(ideal_weight['h1'][:, node_id][j])
+                                observed_weights.append(obs_weight_dict['h1'][:, node_id][j])
+                            else:
+                                error_sum += np.abs(obs_weight_dict['h1'][:, node_id][j])
+
+                    # hidden layer 2
+                    for i, node_id in enumerate(cf2):
+                        for j in range(num_features):
+                            if j in causal_layers_def[1][i]:
+                                ideal_weights.append(ideal_weight['h2'][:, node_id][j])
+                                observed_weights.append(obs_weight_dict['h2'][:, node_id][j])
+                            else:
+                                error_sum += np.abs(obs_weight_dict['h2'][:, node_id][j])
+
+                    # hidden layer 3
+                    for j in range(num_features):
+                        if j in causal_layers_def[2]:  # indicates weight j in column i is causal
+                            ideal_weights.append(ideal_weight['h3'][j])
+                            observed_weights.append(obs_weight_dict['h3'][j][0])
+                        else:
+                            error_sum += np.abs(obs_weight_dict['h3'][j][0])
+
+                simple_errors.append(error_sum/ len(train_leaves))
+                simple_corrs.append(abs(spearmanr(observed_weights, ideal_weights)[0]))
+
+        best_simple_errors.append(min(simple_errors))
+        best_simple_corrs.append(max(simple_corrs))
+
+        """
+        New block - now we will analyze the correlations between activations instead of weight values
+        Starting with the dendronet model:
+        """
+
+        trained_leaf_activations = [np.asarray(tree_model.leaf_activations.numpy()[x]) for x in experiment.train_idx]
+
+        for cf1 in conf_h1:
+            for cf2 in conf_h2:
+                observed_activations = list()
+                ideal_activations = list()
+                for leaf, obs_activation in zip(train_leaves, trained_leaf_activations):
+                    ideal_activations.extend(leaf.activations)
+
+                    # hidden layer 1
+                    for index in cf1:
+                        observed_activations.append(obs_activation[index])
+
+                    # hidden layer 2
+                    for index in cf2:
+                        observed_activations.append(obs_activation[3+index])
+
+                    # hidden layer 3 / output layer
+                    observed_activations.append(obs_activation[-1])
+
+                dendro_activations.append(abs(spearmanr(observed_activations, ideal_activations)[0]))
+        best_dendro_activations.append(max(dendro_activations))
+
+        """
+        Activation correlation metrics for the simple model, could be combined with above block in one function later
+        """
+        for cf1 in conf_h1:
+            for cf2 in conf_h2:
+                observed_activations = list()
+                ideal_activations = list()
+                for leaf, obs_activation in zip(train_leaves, simple_observed_activations):
+                    ideal_activations.extend(leaf.activations)
+
+                    # hidden layer 1
+                    for index in cf1:
+                        observed_activations.append(obs_activation[index])
+
+                    # hidden layer 2
+                    for index in cf2:
+                        observed_activations.append(obs_activation[3+index])
+
+                    # output layer
+                    observed_activations.append(obs_activation[-1])
+                simple_activations.append(abs(spearmanr(observed_activations, ideal_activations)[0]))
+        best_simple_activations.append(max(simple_activations))
+
+        """
+        We will also plot the best loss values similar to aucs for other experiments
+        """
+        if len(validation_losses) >= 1:
+            dendro_best_loss.append(min(validation_losses[1:]))
+            simple_best_loss.append(min(simple_validation_losses[1:]))
+            dendro_final_loss.append(validation_losses[-1])
+            simple_final_loss.append(simple_validation_losses[-1])
+
+    if len(dendro_best_loss) > 0:
+        names = ['dendro_best', 'dendro_final', 'simple_best', 'simple_final']
+        loss_outputs = [dendro_best_loss, dendro_final_loss, simple_best_loss, simple_final_loss]
+        log_aucs(os.path.join(base_output_dir, 'loss_log.txt'), loss_outputs, names)
+    print('done')
+
+    print('Done disentanglement analysis')
+
+    disentanglement_metrics = {
+        'simple_errors': best_simple_errors,
+        'dendro_errors': best_dendro_errors,
+        'simple_correlations': best_simple_corrs,
+        'dendro_correlations': best_dendro_corrs,
+        'simple_activations': best_simple_activations,
+        'dendro_activations:': best_dendro_activations,
+    }
+    dump_dict(disentanglement_metrics, base_output_dir, name='disentanglement_metrics.csv')
+
+    dump_dict(causal_layers_def, base_output_dir, name='hidden_unit_connections.csv')
+
+
+    #constructing a dict for the dendronet loss analysis
+    ideal_dendro_loss = data_tree.dendro_loss
+    dendro_log = {'ideal_loss': ideal_dendro_loss,
+                  'observed_mean': np.mean(final_dendro_losses),
+                  'observed_std': np.std(final_dendro_losses)}
+    for i in range(len(final_dendro_losses)):
+        dendro_log['observation_' + str(i)] = final_dendro_losses[i]
+    dump_dict(dendro_log, base_output_dir, name='dendro_log.csv')
+

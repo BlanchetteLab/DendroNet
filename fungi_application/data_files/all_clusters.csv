@@ -1,0 +1,413 @@
+Genome        DMAT        HYBRID        NRPS        NRPS-Like        PKS        PKS-Like        TC        Total
+Achaetomium strumarium CBS333.67 v1.0        0        2        5        1        14        2        6        30
+Acidothrix acidophila CBS 136259 v1.0        1        2        2        8        4        2        2        21
+Acremonium alcalophilum v2.0        1        3        6        6        11        2        0        29
+Acremonium chrysogenum ATCC 11550        3        2        7        4        18        2        2        38
+Acremonium strictum DS1bioAY4a v1.0        1        2        3        12        11        3        3        35
+Anthostoma avocetta NRRL 3190 v1.0        9        7        14        17        48        6        17        118
+Apiosordaria backusii CBS 540.89 v1.0        3        1        5        6        10        2        2        29
+Apiospora montagnei NRRL 25634 v1.0        2        6        11        10        36        4        7        76
+Apodospora peruviana CBS 118394 v1.0        1        3        12        5        16        3        5        45
+Beauveria bassiana ARSEF 2860        0        3        12        10        11        3        2        41
+Biscogniauxia nummularia v1.0        1        2        5        10        25        4        10        57
+Boliniaceae sp. AZ0804 v1.0        1        3        5        15        22        4        3        53
+Bombardia bombarda SMH3391-2 v1.0        5        3        4        7        18        4        3        44
+Calosphaeria pulchella        0        2        3        10        21        2        1        39
+Cercophora caudata CBS 606.72 v1.0        1        2        6        2        12        2        9        34
+Cercophora newfieldiana SMH2532-1 v1.0        0        2        4        4        9        2        9        30
+Cercophora scortea SMH4131-1 v1.0        0        1        3        8        21        3        3        39
+Chaetomidium fimeti CBS 168.71 v1.0        0        6        9        4        22        4        2        47
+Chaetomium globosum v1.0        1        3        10        3        17        4        3        41
+Chaetosphaeria innumera                                                                0
+Cladorrhinum bulbillosum DJ3 v1.0        1        3        7        5        21        3        3        43
+Clonostachys rosea CBS125111 v1.0        2        4        16        17        30        2        4        75
+Colletotrichum abscissum IMI 504890        6        3        9        10        18        2        9        57
+Colletotrichum acutatum CBS 112980 v2.0        5        3        7        11        17        2        8        53
+Colletotrichum caudatum CBS131602 v1.0        8        3        12        7        22        4        4        60
+Colletotrichum cereale CBS 129662 v1.0        7        2        9        8        33        5        4        68
+Colletotrichum chlorophyti NTL11                                                                0
+Colletotrichum costaricense IMI 309622        5        3        9        10        18        2        9        56
+Colletotrichum cuscutae IMI 304802        5        2        7        13        13        4        7        51
+Colletotrichum eremochloae CBS129661 v1.0        8        2        9        10        29        5        6        69
+Colletotrichum falcatum MAFF306170 v1.0        6        3        7        9        23        4        4        56
+Colletotrichum fioriniae PJ7        5        3        7        9        20        3        8        55
+Colletotrichum godetiae CBS 193.32 v1.0        7        2        8        8        19        3        8        55
+Colletotrichum graminicola M1.001        7        4        4        9        33        1        3        61
+Colletotrichum higginsianum IMI 349063        7        4        12        11        28        5        6        73
+Colletotrichum incanum MAFF 238712        7        0        16        9        24        3        3        62
+Colletotrichum lupini CBS 109225 v1.0        6        5        8        11        18        2        8        58
+Colletotrichum lupini IMI 504893        6        4        10        10        18        3        8        59
+Colletotrichum melonis CBS 134730        5        4        8        10        18        2        8        55
+Colletotrichum navitas CBS125086 v1.0        7        2        11        8        31        6        4        69
+Colletotrichum nymphaeae SA-01        5        3        8        9        22        2        7        56
+Colletotrichum orbiculare 104-T        6        3        9        10        20        3        4        55
+Colletotrichum orchidophilum IMI 309357        5        2        9        9        16        2        4        47
+Colletotrichum paranaense IMI 384185        5        4        8        11        17        2        7        54
+Colletotrichum phormii CBS102054 v1.0        8        3        12        7        17        3        8        58
+Colletotrichum salicis CBS607.94        7        2        9        7        16        2        6        49
+Colletotrichum simmondsii CBS122122        5        4        10        9        21        2        8        59
+Colletotrichum somersetensis CBS 131599 v1.0        7        4        10        11        26        2        3        63
+Colletotrichum sp. CBS 101611        5        4        8        10        19        2        9        57
+Colletotrichum sublineola CBS 131301 v1.0        7        6        8        8        26        3        6        64
+Colletotrichum tamarilloi CBS 129955        5        4        9        10        17        3        8        56
+Colletotrichum tofieldiae 0861        11        1        12        9        25        2        4        64
+Colletotrichum tofieldiae CBS 168.49        10        1        10        7        23        3        5        59
+Colletotrichum zoysiae MAFF235873 v1.0        8        3        9        7        27        4        5        63
+Coniella lustricola B22-T-1 v1.0        0        2        3        10        14        3        1        33
+Coniochaeta ligniaria CBS 111746        0        0        4        4        14        3        3        28
+Coniochaeta ligniaria NRRL 30616 v1.0        0        1        4        4        15        2        2        28
+Coniochaeta sp. 2T2.1 v1.0        1        4        12        9        31        5        4        66
+Coniochaeta sp. PMI_546 v1.0        0        1        7        3        10        2        2        25
+Cordyceps militaris CM01        1        2        5        10        9        4        1        32
+Corollospora maritima CBS 119819 v2.0        0        1        5        2        10        2        1        21
+Cryphonectria parasitica EP155 v2.0        2        4        5        9        18        4        4        46
+Cryptodiaporthe populea CFL2025 v1.0        5        4        9        8        28        2        4        60
+Cryptodiaporthe sp. AZ0812 v1.0        5        5        9        17        15        3        3        57
+Cylindrocarpon olidum MPI-CAGE-CH-0241 v1.0        1        5        8        12        15        4        5        50
+Cytospora chrysosperma CFL2056 v1.0        2        3        6        8        17        4        4        44
+Dactylonectria estremocensis MPI-CAGE-AT-0021 v1.0        1        3        8        10        12        4        2        40
+Dactylonectria macrodidyma MPI-CAGE-AT-0147 v1.0        2        5        7        11        16        4        5        50
+Daldinia eschscholzii EC12 v1.0        2        1        6        11        23        3        6        52
+Diaporthe ampelina UCDDA912        5        3        4        14        24        5        4        59
+Entoleuca mammata CFL468 v1.0        1        3        8        9        25        3        4        53
+Eutypa lata UCREL1        5        2        6        14        27        8        2        64
+Fusarium commune MPI-SDFR-AT-0072 v1.0        3        3        8        13        12        3        8        50
+Fusarium equiseti MPI-CAGE-AA-0113 v1.0        1        1        10        8        9        2        4        35
+Fusarium fujikuroi IMI 58289        2        4        7        13        11        3        7        47
+Fusarium graminearum v1.0        0        1        9        11        8        3        5        37
+Fusarium oxysporum MPI-CAGE-CH-0212 v1.0        3        3        9        12        10        2        6        45
+Fusarium oxysporum MPI-SDFR-AT-0094 v1.0        3        3        10        13        8        3        8        48
+Fusarium oxysporum f. sp. lycopersici 4287 v2        3        2        9        14        10        1        7        46
+Fusarium pseudograminearum CS3096        0        1        7        10        6        4        5        33
+Fusarium redolens MPI-CAGE-AT-0023 v1.0        4        3        10        11        13        2        6        49
+Fusarium solani MPI-SDFR-AT-0091 v1.0        2        1        11        8        13        2        1        38
+Fusarium tricinctum MPI-SDFR-AT-0044 v1.0        3        3        11        13        14        3        6        53
+Fusarium tricinctum MPI-SDFR-AT-0068 v1.0        4        3        10        13        13        3        5        51
+Fusarium venenatum MPI-CAGE-CH-0201 v1.0        0        2        4        11        8        2        5        32
+Fusarium verticillioides 7600 v2        3        3        7        13        11        2        7        46
+Gaeumannomyces graminis var. tritici R3-111a-1        2        3        5        3        13        2        3        31
+Gelasinospora tetrasperma v1.0        1        0        4        3        10        2        2        22
+Glomerella acutata (Colletotrichum fiorinae MH 18) v1.0        5        3        8        9        20        3        9        57
+Glomerella cingulata 23 (Colletotrichum gloeosporoides 23) v1.0        8        4        13        13        31        2        12        83
+Grosmannia clavigera kw1407        0        1        1        6        11        5        3        27
+Hypoxylon sp. CI-4A v1.0        1        0        5        11        23        5        8        53
+Hypoxylon sp. CO27-5 v1.0        3        2        7        10        30        4        7        63
+Hypoxylon sp. EC38 v3.0                                                                0
+Ilyonectria europaea MPI-CAGE-AT-0026 v1.0        2        4        10        18        14        4        3        55
+Ilyonectria robusta PMI_751 v1.0        2        3        8        14        11        3        4        45
+Ilyonectria sp. v1.0        2        4        9        17        15        4        4        55
+Khuskia oryzae ATCC 28132 v1.0        5        2        4        7        24        3        4        49
+Lasiosphaeria miniovina SMH2392-1A v1.0        1        3        4        7        19        3        2        39
+Lasiosphaeria ovina CBS 958.72 v1.0        1        3        5        4        22        2        2        39
+Lasiosphaeriaceae sp. AZ0830 v1.0        1        3        8        7        17        2        8        46
+Lasiosphaeris hirsuta SMH4607-1 v1.0        1        2        7        4        10        3        7        34
+Lasiosphaeris hispida CBS 955.72 v1.0        0        2        6        4        13        2        8        35
+Lecythophora sp. AK0013 v1.0        0        0        5        3        12        2        3        25
+Lindra thalassiae JK4322 v1.0        0        0        2        2        5        2        0        11
+Lollipopaia minuta P26; CBS 116597 v1.0        1        3        3        9        8        3        2        29
+Magnaporthe grisea v1.0        2        5        7        5        23        3        6        51
+Magnaporthiopsis poae ATCC 64411        0        1        4        6        11        4        1        27
+Mariannaea sp. PMI_226 v1.0        2        0        9        10        15        2        1        39
+Melanconium sp. NRRL 54901 v1.0        4        2        10        16        45        4        5        86
+Melanospora tiffanyae F1KG0001 v1.0        0        0        1        5        4        2        1        13
+Metarhizium acridum CQMa 102        3        2        11        7        12        4        1        40
+Metarhizium robertsii ARSEF 23        5        5        13        13        21        3        3        63
+Microascus trigonosporus CBS 218.31 v1.0        1        1        3        7        8        2        1        23
+Microdochium bolleyi J235TASD1 v1.0        2        4        4        7        11        2        6        36
+Microdochium trichocladiopsis MPI-CAGE-CH-0230 v1.0        3        2        4        9        16        2        5        41
+Myceliophthora heterothallica CBS 202.75 v1.0        0        2        5        3        11        2        1        24
+Myceliophthora heterothallica CBS 203.75 v1.0        0        2        4        3        11        3        1        24
+Myceliophthora similis CBS 632.67 v1.0        1        2        6        5        21        4        3        42
+Myceliophthora thermophila (Sporotrichum thermophile) v2.0        0        2        5        2        11        2        2        24
+Myrothecium inundatum CBS 120646 v1.0        6        3        14        19        37        4        4        87
+Nectria haematococca v2.0        1        1        8        8        11        2        1        32
+Neonectria ditissima R09/05        1        2        8        11        14        2        3        41
+Neonectria radicicola MPI-CAGE-AT-0134 v1.0        1        4        11        18        17        5        4        60
+Neurospora crassa FGSC 73 trp-3 v1.0        1        0        3        3        7        2        0        16
+Neurospora crassa OR74A v2.0        1        0        3        3        7        2        0        16
+Neurospora crassa clade B FGSC 4830 v1.0        1        0        3        3        6        2        0        15
+Neurospora discreta FGSC 8579 mat A        1        0        3        2        7        2        0        15
+Neurospora hispaniola FGSC 10403 v1.0        1        0        3        3        7        2        0        16
+Neurospora tetrasperma FGSC 2509 mat a v1.0        1        0        3        3        7        2        0        16
+Niesslia exilis CBS 358.70 v1.0        3        3        16        16        25        2        0        65
+Ophiostoma novo-ulmi subsp. novo-ulmi H327        0        0        1        3        8        2        1        15
+Ophiostoma piceae UAMH 11346        0        0        1        4        8        2        1        16
+Ophiostoma piliferum        0        0        1        1        2        3        1        8
+Phaeoacremonium aleophilum UCRPA7        1        1        2        4        6        2        1        17
+Phaeoacremonium sp. FL0889 v1.0        1        2        10        12        20        3        3        51
+Plectosphaerella cucumerina DS2psM2a2 v1.0        1        0        3        8        4        2        2        20
+Plectosphaerella cucumerina RP01 v1.0        0        0        3        8        6        2        2        21
+Pochonia chlamydosporia 170        0        4        14        10        16        3        6        53
+Podospora anserina S mat+        3        2        6        7        14        3        2        37
+Podospora anserina mat+ v1.0        3        2        6        6        15        3        2        37
+Podospora appendiculata CBS 314.62 v1.0        0        2        4        8        21        4        3        42
+Podospora curvicolla TEP21a v1.0        1        0        5        3        13        2        3        27
+Podospora didyma CBS 232.78 v1.0        3        3        7        5        22        3        7        50
+Pseudomassariella vexata CBS 129021 v1.0        2        4        4        8        28        4        4        54
+Purpureocillium sp. UdeA0106 v1.0        1        2        9        10        12        2        1        37
+Schizothecium vesticola SMH3187-1 v1.0        1        2        5        2        11        2        5        28
+Sodiomyces alkalinus v1.0        1        3        3        5        10        2        0        24
+Sordaria brevicollis FGSC1904 v1.0        1        0        3        4        7        2        0        17
+Stachybotrys elegans MPI-CAGE-CH-0235 v1.0        6        4        8        14        31        2        7        72
+Thielavia antarctica CBS 123565 v1.0        0        1        4        2        4        2        1        14
+Thielavia appendiculata CBS 731.68 v1.0        0        0        5        4        12        3        2        26
+Thielavia arenaria CBS 508.74 v1.0        0        3        4        4        22        2        3        38
+Thielavia hyrcaniae CBS 757.83 v1.0        1        1        5        3        7        2        2        21
+Thielavia terrestris v2.0        0        1        3        2        13        2        1        22
+Thozetella sp. PMI_491 v2.0        3        5        18        19        36        5        6        92
+Tolypocladium inflatum NRRL 8044        1        3        12        9        16        3        0        44
+Torpedospora radiata JK5252C v1.0        0        0        2        3        7        2        0        14
+Trichoderma asperellum CBS 433.97 v1.0        0        2        13        11        12        2        4        44
+Trichoderma asperellum TR356 v1.0        0        3        11        12        12        3        5        46
+Trichoderma atrobrunneum ITEM 908        0        2        4        7        17        2        4        36
+Trichoderma atroviride v2.0        0        2        9        10        13        2        3        39
+Trichoderma citrinoviride TUCIM 6016 v4.0        0        2        8        7        10        2        4        33
+Trichoderma gamsii T6085        0        1        10        11        13        2        2        39
+Trichoderma harzianum CBS 226.95 v1.0        0        5        13        10        21        2        6        57
+Trichoderma harzianum TR274 v1.0        0        5        14        9        20        2        6        56
+Trichoderma longibrachiatum ATCC 18648 v3.0        0        1        7        5        9        3        3        28
+Trichoderma reesei RUT C-30 v1.0        0        2        8        5        8        2        4        29
+Trichoderma reesei v2.0        0        2        8        5        9        2        4        30
+Trichoderma virens Gv29-8 v2.0        0        2        18        13        17        2        6        58
+Truncatella angustata MPI-SDFR-AT-0073 v1.0        2        2        17        13        38        4        9        85
+Ustilaginoidea virens        0        0        4        7        2        2        0        15
+Valetoniellopsis laxa CBS 191.97 v1.0        0        0        5        7        7        3        0        22
+Verticillium alfalfae VaMs.102        0        0        5        9        8        2        0        24
+Verticillium dahliae v1.0        0        1        3        9        6        3        1        23
+Xylaria hypoxylon OSC100004 v1.0        2        6        7        14        43        4        8        84
+Xylariales sp. PMI_506 v1.0        2        3        19        14        27        3        7        75
+Agaricostilbum hyphaenes ATCC MYA-4628 v1.0        0        0        0        2        1        0        0        3
+Atractiellales rhizophila v2.0        0        0        1        3        1        0        6        11
+Chionosphaera apobasidialis 52639 v1.0        0        0        0        2        1        0        0        3
+Chionosphaera cuniculicola CBS10063 v1.0        0        0        0        3        1        0        0        4
+Cronartium quercuum f. sp. fusiforme G11 v1.0        0        0        0        5        2        0        2        9
+Erythrobasidium hasegawianum ATCC 9536 v1.0        0        0        0        3        1        0        0        4
+Heterogastridium pycnidioideum ATCC MYA-4631 v1.0        0        0        0        1        1        0        0        2
+Hyalopycnis blepharistoma ATCC 48560 v1.0        0        0        0        1        1        0        0        2
+Leucosporidiella creatinivora 62-1032 v1.0        0        0        1        3        1        0        0        5
+Melampsora allii-populina 12AY07 v1.0        0        0        1        2        1        2        0        6
+Melampsora americana R15-033-03 v1.0        0        0        1        3        1        0        0        5
+Melampsora larici-populina v2.0        0        0        1        2        1        0        0        4
+Melampsora lini CH5        0        0        1        2        1        0        0        4
+Melampsora medusae f. sp. Deltoidae Mmd05TRE539 v1.0        0        0        0        4        1        0        0        5
+Meredithblackwellia eburnea MCA 4105 v1.0        0        0        1        3        1        0        0        5
+Microbotryum lychnidis-dioicae p1A1 Lamole        0        0        1        1        1        0        0        3
+Microbotryum violaceum p1A1 Lamole v1.0        0        0        1        1        1        0        0        3
+Mixia osmundae IAM 14324 v1.0        0        0        1        3        1        0        0        5
+Naiadella fluitans ATCC 64713 v1.0        0        0        1        5        1        0        0        7
+Naohidea sebacea CBS 8477 (P95) v1.0        0        0        1        2        1        0        0        4
+Puccinia coronata avenae 12NC29        0        0        2        1        2        0        0        5
+Puccinia coronata avenae 12SD80        0        0        2        1        1        0        0        4
+Puccinia graminis f. sp. tritici v2.0        0        0        1        1        2        0        0        4
+Puccinia striiformis f. sp. tritici 104 E137 A-        0        0        2        1        2        0        0        5
+Puccinia striiformis f. sp. tritici PST-130        0        0        0        2        1        0        0        3
+Puccinia striiformis f. sp. tritici PST-78 v1.0        0        0        1        1        1        0        0        3
+Puccinia triticina 1-1 BBBD Race 1        0        0        1        1        2        0        0        4
+Rhodosporidium diobovatum 08-225 v1.0        0        0        1        2        1        0        0        4
+Rhodosporidium toruloides ATCC26217 v1.0        0        0        1        1        1        0        0        3
+Rhodosporidium toruloides IFO0559_1        0        0        1        1        1        0        0        3
+Rhodosporidium toruloides IFO0880 v2.0        0        0        1        1        1        0        0        3
+Rhodosporidium toruloides IFO0880 v4.0        0        0        1        1        1        0        0        3
+Rhodosporidium toruloides IFO1236_1        0        0        1        1        1        0        0        3
+Rhodosporidium toruloides NP11        0        0        1        1        1        0        0        3
+Rhodotorula glutinis v1.0        0        0        1        1        1        0        0        3
+Rhodotorula graminis strain WP1 v1.1        0        0        2        1        1        0        0        4
+Rhodotorula minuta MCA 4210 v1.0        0        0        0        3        1        0        0        4
+Rhodotorula mucilaginosa ATCC58901 v1.0        0        0        1        1        0        1        0        3
+Rhodotorula sp. J31 v1.0        0        0        1        1        1        0        0        3
+Rhodotorula sp. JG-1b        0        0        1        1        1        0        0        3
+Septobasidium sp. PNB30-8B v1.0        0        0        2        2        1        0        0        5
+Slooffia pilatii Y-17178 v1.0        0        0        1        4        1        0        2        8
+Sporidiobolus pararoseus Phaff 68-350 v1.0        0        0        1        1        1        0        0        3
+Sporobolomyces linderae CBS 7893 v1.0        0        0        1        3        1        0        0        5
+Sporobolomyces roseus v1.0        0        0        1        1        0        1        0        3
+Tritirachium sp. CBS 265.96 v1.0        0        0        2        1        3        1        0        7
+Ascobolus immersus RN42 v1.0        1        0        2        1        2        2        0        8
+Ascodesmis nigricans CBS 389.68 v1.0        0        0        2        3        0        2        0        7
+Caloscypha fulgens ATCC 42695 v1.0        4        0        1        4        2        2        2        15
+Choiromyces venosus 120613-1 v1.0        0        0        1        2        2        2        0        7
+Geopyxis carbonaria DOB1671 v1.0        0        0        3        5        7        2        1        18
+Gyromitra esculenta CBS101906 v1.0        0        0        3        4        2        2        1        12
+Kalaharituber pfeilii F3 v1.0        0        1        1        1        3        2        2        10
+Morchella importuna CCBAS932 v1.0        0        0        1        6        0        2        1        10
+Morchella importuna SCYDJ1-A1 v1.0        0        0        1        5        1        2        1        10
+Morchella snyderi DOB2414 v1.0        0        0        1        6        0        2        1        10
+Peziza echinospora DOB1120 v1.0        0        0        1        2        4        3        0        10
+Plectania melastoma CBS 918.72 v1.0        3        3        7        9        34        2        6        64
+Pyronema confluens CBS100304        1        0        2        4        1        2        0        10
+Sarcoscypha coccinea ATCC 58028 v1.0        1        1        1        4        18        2        3        30
+Terfezia boudieri ATCC MYA-4762 v1.1        0        0        1        1        3        2        0        7
+Terfezia claveryi T7 v1.0        0        0        1        1        3        2        0        7
+Tricharina praecox DOB2270 v1.0        0        0        2        3        0        2        0        7
+Trichophaea hybrida UTF0779 v1.0        1        1        1        3        0        2        1        9
+Tuber aestivum var. urcinatum v1.0        0        0        1        5        1        3        0        10
+Tuber borchii Tbo3840 v1.0        0        0        1        3        1        2        0        7
+Tuber magnatum v1.0                                                                0
+Tuber melanosporum Mel28 v1.2        0        0        1        3        2        2        0        8
+Wilcoxina mikolae CBS 423.85 v1.0        0        1        1        2        4        2        1        11
+Acephala macrosclerotiorum EW76-UTF0540 v1.0        1        3        4        11        16        5        1        41
+Amorphotheca resinae v1.0        0        0        3        4        5        3        1        16
+Ascocoryne sarcoides NRRL50072        1        1        3        7        2        2        1        17
+Bisporella sp. PMI_857 v1.0        6        1        8        9        28        4        3        59
+Blumeria graminis f. sp. hordei DH14        0        0        1        2        1        2        0        6
+Blumeria graminis f. sp. hordei Race1        0        0        1        2        1        2        0        6
+Blumeria graminis f. sp. tritici 96224        0        0        1        2        1        2        0        6
+Botrytis cinerea v1.0        2        1        7        14        13        6        2        45
+Bulgaria inquinans CBS118.31 v1.0        0        1        3        8        8        2        0        22
+Cadophora sp. DSE1049 v1.0        3        4        6        12        15        2        5        47
+Chalara longipes BDJ v1.0        2        2        6        14        22        2        4        52
+Coccomyces strobi CBS 202.91 v1.0        1        3        6        12        25        4        1        52
+Erysiphe necator c        0        0        1        2        0        2        0        5
+Glarea lozoyensis ATCC 20868        1        5        4        11        24        2        0        47
+Golovinomyces cichoracearum UCSC1 v1.0        0        0        1        3        1        2        0        7
+Gremmeniella abietina DAOM 170408 v1.0        0        1        1        7        9        2        3        23
+Hymenoscyphus varicosporoides PMI_453 v1.0        0        3        5        11        18        3        5        45
+Leotiomycetes sp. MPI-SDFR-AT-0126 v1.0        2        4        7        13        12        3        3        44
+Leptodontidium orchidicola MPI-SDFR-AT-0119 v2.0        4        1        10        10        20        6        3        54
+Leptodontium sp. PMI_412 v1.0        5        1        11        10        22        4        4        57
+Lophodermium nitens PLMe3-1-3 v1.0        6        1        11        18        30        2        1        69
+Loramyces juncicola 46458 v1.0        3        4        7        14        18        3        2        51
+Loramyces macrosporus CBS235.53 v1.0        3        2        6        13        20        3        3        50
+Marssonina brunnea f. sp. multigermtubi MB_m1        0        1        2        3        6        2        3        17
+Meliniomyces bicolor E v2.0        2        1        6        12        23        2        1        47
+Meliniomyces variabilis F v1.0        1        0        4        14        17        2        1        39
+Oidiodendron maius Zn v1.0        2        4        5        14        34        4        2        65
+Phialocephala scopiformis 5WS22E1 v1.0        2        5        5        17        24        3        4        60
+Pseudographis elatina        2        2        6        18        33        5        1        67
+Pseudogymnoascus destructans 20631-21        0        0        3        2        7        2        0        14
+Rhexocercosporidium sp. MPI-PUGE-AT-0058 v1.0        2        5        7        11        22        4        3        54
+Rhizoscyphus ericae UAMH 7357 v1.0        1        1        2        8        10        2        2        26
+Rutstroemia firma CBS 115.86 v1.0        1        0        4        18        26        4        2        55
+Sclerotinia sclerotiorum v1.0        1        1        5        10        15        2        0        34
+Spathularia flavida        2        3        11        21        23        5        1        66
+Thelebolus microsporus ATCC 90970 v1.0        0        0        1        2        1        2        0        6
+Thelebolus stercoreus        0        0        3        2        2        2        0        9
+Aaosphaeria arxii CBS 175.79 v1.0        2        0        7        7        16        4        5        41
+Acidomyces richmondensis BFW        0        0        1        5        2        2        0        10
+Acidomyces richmondensis BFW        0        0        1        5        1        3        0        10
+Aliquandostipite khaoyaiensis CBS 118232 v1.0        0        2        5        1        7        2        0        17
+Alternaria alternata MPI-PUGE-AT-0064 v1.0        0        1        4        7        7        3        3        25
+Alternaria alternata SRC1lrK2f v1.0        1        1        5        7        9        3        3        29
+Alternaria brassicicola        0        0        4        6        6        3        5        24
+Alternaria rosae MPI-PUGE-AT-0040 v1.0        1        1        4        6        12        2        1        27
+Amniculicola lignicola CBS 123094 v1.0        1        4        4        5        17        3        2        36
+Ampelomyces quisqualis HMLAC05119 v1.0        1        1        5        5        7        2        2        23
+Aplosporella prunicola CBS 121.167 v1.0        1        4        6        8        10        2        3        34
+Ascochyta rabiei ArDII        1        1        2        7        8        2        0        21
+Aulographum hederae v2.0        0        0        1        4        4        2        0        11
+Aureobasidium pullulans var. melanogenum CBS 110374        0        0        2        7        4        2        1        16
+Aureobasidium pullulans var. namibiae CBS 147.97        0        0        2        8        4        2        0        16
+Aureobasidium pullulans var. pullulans EXF-150        1        0        4        12        6        2        0        25
+Aureobasidium pullulans var. subglaciale EXF-2481        0        1        2        11        7        2        1        24
+Baudoinia compniacensis UAMH 10762 (4089826) v1.0        0        0        2        6        2        2        1        13
+Bimuria novae-zelandiae CBS 107.79 v1.0        5        1        6        8        15        5        2        42
+Boeremia exigua MPI-SDFR-AT-0100 v1.0        0        1        4        8        5        2        1        21
+Botryosphaeria dothidea        0        2        17        14        24        4        8        69
+Byssothecium circinans CBS 675.92 v1.0        4        1        6        10        25        3        3        52
+Cenococcum geophilum 1.58 v2.0        3        2        8        6        9        4        1        33
+Cercospora zeae-maydis v1.0        1        1        8        11        11        2        1        35
+Cladosporium fulvum v1.0        0        1        10        15        8        3        1        38
+Cladosporium sphaerospermum UM 843        0        1        4        9        5        3        1        23
+Clathrospora elynae CBS 161.51 v1.0        1        2        9        7        9        2        1        31
+Clohesyomyces aquaticus v1.0        4        4        5        9        19        4        0        45
+Cochliobolus carbonum 26-R-13 v1.0        1        2        9        8        18        5        6        49
+Cochliobolus heterostrophus C4 v1.0        2        1        10        8        19        2        6        48
+Cochliobolus heterostrophus C5 v2.0        3        0        9        8        19        3        6        48
+Cochliobolus lunatus m118 v2.0        1        3        5        12        11        2        2        36
+Cochliobolus miyabeanus ATCC 44560 v1.0        2        1        5        6        15        2        5        36
+Cochliobolus sativus ND90Pr v1.0        3        0        11        6        13        4        5        42
+Cochliobolus victoriae FI3 v1.0        3        2        8        7        14        3        6        43
+Coniosporium apollinis CBS 100218        0        1        1        3        3        2        1        11
+Corynespora cassiicola CCP v1.0        2        2        4        12        25        2        3        50
+Cucurbitaria berberidis CBS 394.84 v1.0        0        1        4        5        10        2        1        23
+Decorospora gaudefroyi v1.0        0        2        3        4        10        2        0        21
+Delitschia confertaspora ATCC 74209 v1.0        3        0        5        9        11        2        0        30
+Delphinella strobiligena CBS 735.71 v1.0        0        0        5        9        3        2        2        21
+Dendryphion nanum MPI-CAGE-CH-0243 v1.0        0        0        8        7        13        4        1        33
+Didymella exigua CBS 183.55 v1.0        1        0        3        4        8        2        0        18
+Didymella zeae-maydis 3018        1        0        4        7        10        2        1        25
+Didymocrea sadasivanii CBS 438.65 v1.0        1        1        8        9        15        2        2        38
+Diplodia seriata DS831        0        0        3        11        8        1        2        25
+Dissoconium aciculare v1.0        1        1        5        11        8        2        1        29
+Dothidotthia symphoricarpi v1.0        2        0        6        6        12        2        3        31
+Dothistroma septosporum NZE10 v1.0        1        1        5        9        4        3        1        24
+Elsinoe ampelina CECT 20119 v1.0        1        1        5        6        3        2        1        19
+Eremomyces bilateralis CBS 781.70 v1.0        0        1        2        1        3        2        1        10
+Fenestella fenestrata ATCC 66461 v1.0        0        1        8        4        9        2        1        25
+Gloniopsis sp. FL0384 v1.0        1        1        4        6        14        2        5        33
+Glonium stellatum CBS 207.34 v1.0        1        1        9        5        19        4        2        41
+Herpotrichia sp. AK1299 v1.0        2        2        8        18        22        6        2        60
+Hortaea acidophila CBS 113389 v1.0        0        0        1        7        1        2        0        11
+Hortaea werneckii EXF-2000 M0 v1.0        1        0        3        17        2        4        0        27
+Hysterium pulicare        0        2        5        5        21        3        2        38
+Karstenula rhodostoma CBS 690.94 v1.0        1        1        7        6        13        2        4        34
+Lentithecium fluviatile v1.0        3        4        6        10        25        4        1        53
+Lepidopterella palustris v1.0        2        0        5        5        17        3        1        33
+Leptosphaeria maculans        1        0        5        7        10        3        2        28
+Lindgomyces ingoldianus ATCC 200398 v1.0        2        3        14        10        29        7        2        67
+Lineolata rhizophorae ATCC 16933 v1.0        1        0        1        1        1        2        0        6
+Lizonia empirigonia CBS 542.76 v1.0        0        0        6        8        11        3        0        28
+Lophiostoma macrostomum v1.0        2        1        4        9        15        2        2        35
+Lophiotrema nucula CBS 627.86 v1.0        1        4        10        7        20        3        4        49
+Lophium mytilinum CBS 269.34 v1.0        2        0        4        4        7        3        2        22
+Macrophomina phaseolina MPI-SDFR-AT-0080 v1.0        0        4        15        15        27        8        9        78
+Macrophomina phaseolina MS6        0        3        13        15        20        6        6        63
+Macroventuria anomochaeta CBS 525.71 v1.0        1        0        3        6        5        2        1        18
+Massarina eburnea CBS 473.64 v1.0        1        2        5        8        12        2        1        31
+Massariosphaeria phaeospora CBS 611.86 v1.0        2        2        3        7        16        3        1        34
+Melanomma pulvis-pyrius v1.0        2        5        4        7        29        4        2        53
+Melanops tulasnei CBS 116805 v1.0        0        0        9        8        13        3        5        38
+Microthyrium microscopicum CBS 115976 v1.0        2        0        2        5        7        2        1        19
+Mycosphaerella graminicola v2.0        0        0        5        9        11        2        1        28
+Myriangium duriaei CBS 260.36 v1.0        0        1        9        7        8        2        0        27
+Mytilinidion resinicola CBS 304.34 v1.0        1        0        7        4        15        4        1        32
+Neofusicoccum parvum UCRNP2        0        3        10        9        16        5        6        49
+Ophiobolus disseminans CBS 113818 v1.0        2        4        6        8        10        3        6        39
+Paraconiothyrium sporulosum AP3s5-JAC2a v1.0        4        1        4        10        17        2        2        40
+Paraphoma chrysanthemicola MPI-GEGE-AT-0034 v1.0        0        3        3        8        7        3        4        28
+Patellaria atrata v1.0        0        0        5        4        6        2        0        17
+Periconia macrospinosa DSE2036 v1.0        3        6        16        15        40        10        6        96
+Phaeosphaeria poagena MPI-PUGE-AT-0046c v1.0        1        1        6        5        15        3        2        33
+Phaeosphaeriaceae sp. PMI_808 v1.0        2        3        9        11        26        7        4        62
+Phoma multirostrata 7a v1.0        1        0        4        7        4        2        0        18
+Phoma tracheiphila IPT5 v1.0        0        1        4        8        14        2        2        31
+Phyllosticta capitalensis CBS 128856 v1.0        0        1        3        9        4        2        2        21
+Phyllosticta citriasiana v1.0        0        1        4        8        5        2        1        21
+Phyllosticta citribraziliensis CBS 100098 v1.0        0        1        3        9        5        2        2        22
+Phyllosticta citricarpa CBS 127454 v1.0        0        1        4        8        5        2        2        22
+Phyllosticta citrichinaensis CBS 130529 v1.0        0        1        4        9        5        2        0        21
+Phyllosticta sp. CPC 27169 v1.0        0        1        3        7        5        2        2        20
+Phyllosticta sp. CPC 27913 v1.0        0        1        4        9        5        2        2        23
+Piedraia hortae v1.1        0        0        2        1        2        2        0        7
+Pleomassaria siparia v1.0        2        0        3        5        13        2        1        26
+Pleospora avicennia ATCC 66911 v1.0        3        3        4        10        20        2        4        46
+Polychaeton citri v1.0        1        0        7        9        6        2        0        25
+Polyplosphaeria fusca CBS 125425 v1.0        1        0        5        6        15        3        0        30
+Pseudocercospora (Mycosphaerella) fijiensis v2.0        0        1        8        7        6        2        2        26
+Pseudovirgaria hyperparasitica CBS 121739 v1.0        0        5        8        5        11        2        6        37
+Pyrenochaeta lycopersici MPI-SDFR-AT-0127 v1.0        2        0        8        7        17        2        3        39
+Pyrenochaeta sp. DS3sAY3a v1.0        0        0        6        8        7        3        1        25
+Pyrenophora teres f. teres        1        1        24        11        17        3        1        58
+Pyrenophora tritici-repentis        0        1        10        10        14        3        1        39
+Rhizodiscina lignyota CBS 133067 v1.0        0        2        4        8        10        2        0        26
+Rhytidhysteron rufulum        1        5        11        10        28        4        5        64
+Saccharata proteae CBS 121410 v1.0        0        1        2        10        3        2        1        19
+Septoria musiva SO2202 v1.0        0        2        7        8        9        2        2        30
+Septoria populicola v1.0        0        0        8        7        9        2        3        29
+Setomelanomma holmii CBS 110217 v1.0        1        0        6        7        7        3        2        26
+Setosphaeria turcica Et28A v2.0        2        2        8        9        22        5        1        49
+Setosphaeria turcica NY001 v2.0        2        1        10        9        23        3        1        49
+Sporormia fimetaria v1.0        1        0        3        2        6        2        0        14
+Stagonospora nodorum SN15 v2.0        2        1        9        6        13        1        2        34
+Stagonospora sp. SRC1lsM3a v1.0        2        2        6        6        16        3        4        39
+Stemphylium lycopersici CIDEFI-216        0        1        5        6        14        2        2        30
+Stomiopeltis betulae CBS114420 v1.0        0        2        6        4        15        2        0        29
+Teichospora sp. FL1471 v1.0        1        1        4        11        17        3        4        41
+Teratosphaeria nubilosa CBS 116005 v1.0        0        2        4        9        6        2        1        24
+Tothia fuscella CBS 130266 v1.0        0        2        4        5        5        1        0        17
+Trematosphaeria pertusa CBS 122368 v1.0        2        0        6        9        18        3        2        40
+Trichodelitschia bisporula CBS 262.69 v1.0        0        0        2        1        1        2        0        6
+Trypethelium eluteriae v1.0        5        1        3        10        33        2        7        61
+Venturia inaequalis        2        0        4        9        6        2        0        23
+Venturia pirina        2        1        3        9        8        2        1        26
+Verruconis gallopava        0        0        2        3        5        2        0        12

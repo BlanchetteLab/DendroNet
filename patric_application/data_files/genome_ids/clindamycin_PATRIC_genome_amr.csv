@@ -1,0 +1,610 @@
+Taxon ID,Genome ID,Genome Name,Antibiotic,Resistant Phenotype,Measurement,Measurement Sign,Measurement Value,Measurement Unit,Laboratory Typing Method,Laboratory Typing Method Version,Laboratory Typing Platform,Vendor,Testing Standard,Testing Standard Year,Computational Method,Computational Method Version,Computational Method Performance,Evidence,Source,PubMed
+1280,"1280.9398","Staphylococcus aureus WAU_32","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1484","Clostridioides difficile strain VL_0057","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17407","Streptococcus pneumoniae strain SC13-4117-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.8193","Staphylococcus aureus C00013186","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+760833,"760833.3","Streptococcus pneumoniae GA47360","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1313,"1313.17196","Streptococcus pneumoniae strain 155","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.915","Peptoclostridium difficile strain VL_0030","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.11710","Staphylococcus aureus strain 3688STDY6124898","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17434","Streptococcus pneumoniae strain SC15-0224-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.8766","Staphylococcus aureus C00007069","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9214","Staphylococcus aureus 024_04","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1477","Clostridioides difficile strain VL_0105","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17150","Streptococcus pneumoniae strain 112","clindamycin","Susceptible","0.12","==","0.12","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17435","Streptococcus pneumoniae strain SC15-0240-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+760816,"760816.3","Streptococcus pneumoniae GA43257","clindamycin","Susceptible","0.06","=","0.06",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9978","Staphylococcus aureus C00013184","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9218","Staphylococcus aureus 028_01","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11277","Staphylococcus aureus strain 3688STDY6124838","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1496,"1496.1457","Clostridioides difficile strain VL_0184","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1171","Peptoclostridium difficile strain VL_0377","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1069627,"1069627.3","Streptococcus pneumoniae GA04672","clindamycin","Susceptible","<=0.06","<=","0.06",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.16761","Staphylococcus aureus strain AR_0221","clindamycin","Susceptible","<=0.25","<=","0.25","mg/L","MIC",,,,"CLSI",,,,,"Laboratory Method",,
+1280,"1280.11702","Staphylococcus aureus strain 3688STDY6125022","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17219","Streptococcus pneumoniae strain 176","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.962","Peptoclostridium difficile strain VL_0438","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17276","Streptococcus pneumoniae strain 64","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17180","Streptococcus pneumoniae strain 140","clindamycin","Susceptible","0.12","==","0.12","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.11276","Staphylococcus aureus strain 3688STDY6124840","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9920","Staphylococcus aureus C00008997","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17401","Streptococcus pneumoniae strain SC13-3765-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9406","Staphylococcus aureus WAU_8","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9901","Staphylococcus aureus C00007111","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.956","Peptoclostridium difficile strain VL_0052","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.11180","Staphylococcus aureus strain 3688STDY6124828","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9732","Staphylococcus aureus C00001440","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11321","Staphylococcus aureus strain 3688STDY6125020","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1496,"1496.1449","Clostridioides difficile strain VL_0219","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17225","Streptococcus pneumoniae strain 181","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1060","Peptoclostridium difficile strain VL_0158","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9386","Staphylococcus aureus WAU_3","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1076","Peptoclostridium difficile strain VL_0033","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.8212","Staphylococcus aureus C00013205","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9947","Staphylococcus aureus C00012789","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9955","Staphylococcus aureus C00012812","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+760788,"760788.3","Streptococcus pneumoniae GA17484","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.16548","Staphylococcus aureus strain AR_0472","clindamycin","Resistant","<=0.25","<=","0.25","mg/L","MIC",,,,"CLSI",,,,,"Laboratory Method",,
+1280,"1280.9912","Staphylococcus aureus C00008946","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.8649","Staphylococcus aureus C00002657","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.8108","Staphylococcus aureus C00012777","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9275","Staphylococcus aureus 177_08","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1177","Peptoclostridium difficile strain VL_0393","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+760811,"760811.3","Streptococcus pneumoniae GA41410","clindamycin","Susceptible","<=0.03","<=","0.03",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.11353","Staphylococcus aureus strain 3688STDY6124980","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+985002,"985002.125","Staphylococcus argenteus strain 3688STDY6125109","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17410","Streptococcus pneumoniae strain SC13-4417-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+985002,"985002.114","Staphylococcus argenteus strain 3688STDY6125126","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9985","Staphylococcus aureus C00013197","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.8185","Staphylococcus aureus C00013178","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9941","Staphylococcus aureus C00012781","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+760798,"760798.3","Streptococcus pneumoniae GA19101","clindamycin","Intermediate","0.5","=","0.5",,,,,,,,,,,"Laboratory Method",,
+904784,"904784.3","Staphylococcus aureus subsp. aureus IS-125","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.19784","Staphylococcus aureus strain 181","clindamycin","Susceptible","0.25","<=","0.25","mg/L","MIC",,"Vitek","Biom�rieux","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17228","Streptococcus pneumoniae strain 19","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9728","Staphylococcus aureus C00001389","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11202","Staphylococcus aureus strain 3688STDY6125055","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17403","Streptococcus pneumoniae strain SC13-3942-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1107","Peptoclostridium difficile strain VL_0169","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1054","Peptoclostridium difficile strain VL_0142","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1025","Peptoclostridium difficile strain VL_0048","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.8409","Staphylococcus aureus C00007086","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17174","Streptococcus pneumoniae strain 135","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+985002,"985002.93","Staphylococcus argenteus strain 3688STDY6125082","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9307","Staphylococcus aureus CGH2_07","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.8734","Staphylococcus aureus C00002649","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.1110","Peptoclostridium difficile strain VL_0167","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1392","Clostridioides difficile strain VL_0430","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+760786,"760786.3","Streptococcus pneumoniae GA17371","clindamycin","Susceptible","0.25","=","0.25",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9250","Staphylococcus aureus 085_03","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.17333","Streptococcus pneumoniae strain SC10-2663-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.16566","Staphylococcus aureus strain AR_0226","clindamycin","Susceptible","<=0.25","<=","0.25","mg/L","MIC",,,,"CLSI",,,,,"Laboratory Method",,
+1313,"1313.17245","Streptococcus pneumoniae strain 35","clindamycin","Susceptible","0.03","<=","0.03","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9207","Staphylococcus aureus 013_00","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+985002,"985002.122","Staphylococcus argenteus strain 3688STDY6125112","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17204","Streptococcus pneumoniae strain 162","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1213","Peptoclostridium difficile strain VL_0317","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17278","Streptococcus pneumoniae strain 66","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17369","Streptococcus pneumoniae strain SC12-1140-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9299","Staphylococcus aureus 493_05","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1063","Peptoclostridium difficile strain VL_0171","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1117","Peptoclostridium difficile strain VL_0245","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+985002,"985002.102","Staphylococcus argenteus strain 3688STDY6125140","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9960","Staphylococcus aureus C00012817","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17419","Streptococcus pneumoniae strain SC14-0908-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.4948","Staphylococcus aureus P210405-16","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1496,"1496.1467","Clostridioides difficile strain VL_0148","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17288","Streptococcus pneumoniae strain 75","clindamycin","Susceptible","0.12","==","0.12","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.8133","Staphylococcus aureus C00012805","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17345","Streptococcus pneumoniae strain SC11-2176-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+985002,"985002.109","Staphylococcus argenteus strain 3688STDY6125132","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+904786,"904786.3","Staphylococcus aureus subsp. aureus IS-160","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1496,"1496.1039","Peptoclostridium difficile strain VL_0092","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17271","Streptococcus pneumoniae strain 6","clindamycin","Susceptible","0.03","<=","0.03","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17295","Streptococcus pneumoniae strain 82","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9301","Staphylococcus aureus CGH1_06","clindamycin","Susceptible",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9401","Staphylococcus aureus WAU_35","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1193","Peptoclostridium difficile strain VL_0463","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17294","Streptococcus pneumoniae strain 81","clindamycin","Resistant","2",">","2","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1221","Peptoclostridium difficile strain VL_0207","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+760838,"760838.3","Streptococcus pneumoniae GA47461","clindamycin","Susceptible","0.06","=","0.06",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.11235","Staphylococcus aureus strain 3688STDY6124910","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17314","Streptococcus pneumoniae strain SC10-0214-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1282,"1282.3129","Staphylococcus epidermidis strain 273","clindamycin","Resistant","6","==","6","mm","disk diffusion",,"KB panel","Becton Dickinson","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17184","Streptococcus pneumoniae strain 144","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1447","Clostridioides difficile strain VL_0227","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17376","Streptococcus pneumoniae strain SC12-2080-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1412","Clostridioides difficile strain VL_0341","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1135","Peptoclostridium difficile strain VL_0309","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17260","Streptococcus pneumoniae strain 49","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+760775,"760775.3","Streptococcus pneumoniae GA13856","clindamycin","Susceptible","<=0.06","<=","0.06",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.11706","Staphylococcus aureus strain 3688STDY6124857","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+760792,"760792.3","Streptococcus pneumoniae GA17719","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1131629,"1131629.3","Streptococcus pneumoniae GA62681","clindamycin","Susceptible","0.06","=","0.06",,,,,,,,,,,"Laboratory Method",,
+1496,"1496.1023","Peptoclostridium difficile strain VL_0419","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.8440","Staphylococcus aureus C00008972","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.8406","Staphylococcus aureus C00007081","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9328","Staphylococcus aureus TTSH1_03","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+985002,"985002.155","Staphylococcus argenteus strain 3688STDY6125120","clindamycin","Intermediate",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.16759","Staphylococcus aureus strain AR_0227","clindamycin","Resistant",">16",">","16","mg/L","MIC",,,,"CLSI",,,,,"Laboratory Method",,
+1639,"1639.6143","Listeria monocytogenes strain 10","clindamycin","Resistant","6","==","6","mm","disk diffusion",,,"Becton Dickinson","CLSI",,,,,"Laboratory Method",,
+1280,"1280.4935","Staphylococcus aureus P210309-122","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9378","Staphylococcus aureus WAU_21","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.925","Peptoclostridium difficile strain VL_0128","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.8404","Staphylococcus aureus C00007083","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.1138","Peptoclostridium difficile strain VL_0320","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+985002,"985002.87","Staphylococcus argenteus strain 3688STDY6125092","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+985002,"985002.131","Staphylococcus argenteus strain 3688STDY6125090","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.6942","Streptococcus pneumoniae P110340-157","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.7372","Staphylococcus aureus WAU_4","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.7010","Streptococcus pneumoniae P310574-192","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+760828,"760828.3","Streptococcus pneumoniae GA47033","clindamycin","Susceptible","0.06","=","0.06",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9202","Staphylococcus aureus 009_06","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.8363","Staphylococcus aureus C00007108","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+760830,"760830.3","Streptococcus pneumoniae GA47210","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.4973","Staphylococcus aureus P310516-222","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9231","Staphylococcus aureus 043_05","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.8692","Staphylococcus aureus C00008947","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.1206","Peptoclostridium difficile strain VL_0284","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9189","Staphylococcus aureus 002_00","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.7446","Staphylococcus aureus C00007075","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17335","Streptococcus pneumoniae strain SC10-2828-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17274","Streptococcus pneumoniae strain 62","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+760851,"760851.3","Streptococcus pneumoniae GA49138","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1496,"1496.919","Peptoclostridium difficile strain VL_0067","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.8379","Staphylococcus aureus C00000820","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11344","Staphylococcus aureus strain 3688STDY6124992","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1496,"1496.935","Peptoclostridium difficile strain VL_0358","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.11299","Staphylococcus aureus strain 3688STDY6125046","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17203","Streptococcus pneumoniae strain 161","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1243","Peptoclostridium difficile strain VL_0443","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+985002,"985002.140","Staphylococcus argenteus strain 3688STDY6125072","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17315","Streptococcus pneumoniae strain SC10-0415","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9731","Staphylococcus aureus C00001442","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.8561","Staphylococcus aureus C00009030","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11183","Staphylococcus aureus strain 3688STDY6124816","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.7404","Staphylococcus aureus C00001452","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.8726","Staphylococcus aureus C00001445","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.8645","Staphylococcus aureus C00002658","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9257","Staphylococcus aureus 101_03","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.17254","Streptococcus pneumoniae strain 43","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.16568","Staphylococcus aureus strain AR_0228","clindamycin","Resistant",">16",">","16","mg/L","MIC",,,,"CLSI",,,,,"Laboratory Method",,
+1280,"1280.8727","Staphylococcus aureus C00001447","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.8088","Staphylococcus aureus C00012756","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.1071","Peptoclostridium difficile strain VL_0222","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1432","Clostridioides difficile strain VL_0276","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+760846,"760846.3","Streptococcus pneumoniae GA47760","clindamycin","Susceptible","0.06","=","0.06",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9385","Staphylococcus aureus WAU_29","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11333","Staphylococcus aureus strain 3688STDY6125007","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.7013","Streptococcus pneumoniae P310795-191","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.8567","Staphylococcus aureus C00000847","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9313","Staphylococcus aureus CGH3_10","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.8155","Staphylococcus aureus C00012828","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9276","Staphylococcus aureus 199_04","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.16763","Staphylococcus aureus strain 0943-1505-2016","clindamycin","Resistant","==1","==","1","mg/L","MIC",,"Phoenix","Becton Dickinson","EUCAST",,,,,"Laboratory Method",,
+1280,"1280.8089","Staphylococcus aureus C00012758","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.7445","Staphylococcus aureus C00007074","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11181","Staphylococcus aureus strain 3688STDY6124839","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1496,"1496.1398","Clostridioides difficile strain VL_0395","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.11160","Staphylococcus aureus strain 3688STDY6124928","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17156","Streptococcus pneumoniae strain 118","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.11725","Staphylococcus aureus strain 3688STDY6124959","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9375","Staphylococcus aureus WAU_18","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11250","Staphylococcus aureus strain 3688STDY6124886","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1496,"1496.1418","Clostridioides difficile strain VL_0315","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.11322","Staphylococcus aureus strain 3688STDY6125018","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+985002,"985002.85","Staphylococcus argenteus strain 3688STDY6125114","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.11323","Staphylococcus aureus strain 3688STDY6125016","clindamycin","Intermediate",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.8392","Staphylococcus aureus C00000838","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.7354","Staphylococcus aureus CGH4_10","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11197","Staphylococcus aureus strain 3688STDY6124972","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17179","Streptococcus pneumoniae strain 14","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.11011","Staphylococcus aureus strain 3688STDY6124900","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+760804,"760804.3","Streptococcus pneumoniae GA40183","clindamycin","Susceptible","0.25","=","0.25",,,,,,,,,,,"Laboratory Method",,
+760802,"760802.3","Streptococcus pneumoniae GA19998","clindamycin","Susceptible","0.25","=","0.25",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9338","Staphylococcus aureus TTSH2_06","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+904799,"904799.3","Staphylococcus aureus subsp. aureus CO-49","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9297","Staphylococcus aureus 481_06","clindamycin","Susceptible",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.17364","Streptococcus pneumoniae strain SC12-0686-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.942","Peptoclostridium difficile strain VL_0080","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1215","Peptoclostridium difficile strain VL_0374","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9335","Staphylococcus aureus TTSH2_01","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11336","Staphylococcus aureus strain 3688STDY6125001","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+760771,"760771.3","Streptococcus pneumoniae GA13455","clindamycin","Susceptible","0.25","=","0.25",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.8735","Staphylococcus aureus C00000815","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11031","Staphylococcus aureus strain 3688STDY6124929","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17428","Streptococcus pneumoniae strain SC14-3031-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.954","Peptoclostridium difficile strain VL_0448","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.11703","Staphylococcus aureus strain 3688STDY6125036","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9281","Staphylococcus aureus 263_04","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9191","Staphylococcus aureus 002_10","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11203","Staphylococcus aureus strain 3688STDY6125054","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17165","Streptococcus pneumoniae strain 126","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17229","Streptococcus pneumoniae strain 2","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1409","Clostridioides difficile strain VL_0348","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.11308","Staphylococcus aureus strain 3688STDY6125035","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17151","Streptococcus pneumoniae strain 113","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.937","Peptoclostridium difficile strain VL_0391","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9939","Staphylococcus aureus C00012771","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+760755,"760755.3","Streptococcus pneumoniae GA07643","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.8788","Staphylococcus aureus C00012757","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9318","Staphylococcus aureus CGH5_05","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.17145","Streptococcus pneumoniae strain 108","clindamycin","Susceptible","0.12","==","0.12","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.16554","Staphylococcus aureus strain AR_0473","clindamycin","Susceptible","<=0.25","<=","0.25","mg/L","MIC",,,,"CLSI",,,,,"Laboratory Method",,
+1280,"1280.9292","Staphylococcus aureus 356_05","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+760766,"760766.3","Streptococcus pneumoniae GA11856","clindamycin","Resistant",">4",">","4",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.4947","Staphylococcus aureus P210418-17","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1313,"1313.17409","Streptococcus pneumoniae strain SC13-4393-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9727","Staphylococcus aureus C00001387","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11351","Staphylococcus aureus strain 3688STDY6124982","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.4916","Staphylococcus aureus P210062","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1496,"1496.1197","Peptoclostridium difficile strain VL_0096","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+760764,"760764.3","Streptococcus pneumoniae GA11426","clindamycin","Susceptible","0.25","=","0.25",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.11313","Staphylococcus aureus strain 3688STDY6125027","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9294","Staphylococcus aureus 363_07","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.17302","Streptococcus pneumoniae strain 89","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1030","Peptoclostridium difficile strain VL_0069","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.7018","Streptococcus pneumoniae P311313-217","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.11701","Staphylococcus aureus strain 3688STDY6124990","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17154","Streptococcus pneumoniae strain 116","clindamycin","Susceptible","0.12","==","0.12","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1062","Peptoclostridium difficile strain VL_0170","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9405","Staphylococcus aureus WAU_41","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9352","Staphylococcus aureus TTSH4_02","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.17291","Streptococcus pneumoniae strain 79","clindamycin","Susceptible","0.12","==","0.12","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.11271","Staphylococcus aureus strain 3688STDY6124849","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+760795,"760795.3","Streptococcus pneumoniae GA18523","clindamycin","Intermediate","0.5","=","0.5",,,,,,,,,,,"Laboratory Method",,
+760781,"760781.3","Streptococcus pneumoniae GA16531","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9350","Staphylococcus aureus TTSH3_10","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+760765,"760765.3","Streptococcus pneumoniae GA11663","clindamycin","Susceptible","<=0.06","<=","0.06",,,,,,,,,,,"Laboratory Method",,
+1313,"1313.17283","Streptococcus pneumoniae strain 70","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9969","Staphylococcus aureus C00013163","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11318","Staphylococcus aureus strain 3688STDY6125023","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9358","Staphylococcus aureus TTSH5_01","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1143","Peptoclostridium difficile strain VL_0335","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.16052","Staphylococcus aureus strain 0908-2002-2015","clindamycin","Susceptible","<=0.25","<=","0.25","mg/L","MIC",,"Phoenix","Becton Dickinson","EUCAST",,,,,"Laboratory Method",,
+1496,"1496.1108","Peptoclostridium difficile strain VL_0396","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17355","Streptococcus pneumoniae strain SC11-4154-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9254","Staphylococcus aureus 098_03","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9272","Staphylococcus aureus 158_08","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.17202","Streptococcus pneumoniae strain 16","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.4946","Staphylococcus aureus P210399-15","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9274","Staphylococcus aureus 176_08","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9314","Staphylococcus aureus CGH4_05","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+760785,"760785.3","Streptococcus pneumoniae GA17301","clindamycin","Susceptible","<=0.06","<=","0.06",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9291","Staphylococcus aureus 352_06","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.17445","Streptococcus pneumoniae strain SC15-2302-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9994","Staphylococcus aureus C00013218","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11030","Staphylococcus aureus strain 3688STDY6124927","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17143","Streptococcus pneumoniae strain 106","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.7377","Staphylococcus aureus C00000799","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17391","Streptococcus pneumoniae strain SC13-0550-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9343","Staphylococcus aureus TTSH3_01","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.8222","Staphylococcus aureus C00013215","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9987","Staphylococcus aureus C00013200","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17235","Streptococcus pneumoniae strain 26","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9199","Staphylococcus aureus 006_10","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.17339","Streptococcus pneumoniae strain SC11-0633-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9193","Staphylococcus aureus 003_10","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9412","Staphylococcus aureus C00000805","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.1121","Peptoclostridium difficile strain VL_0252","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17262","Streptococcus pneumoniae strain 50","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17356","Streptococcus pneumoniae strain SC11-4277-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.4960","Staphylococcus aureus P210464-28","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1313,"1313.17303","Streptococcus pneumoniae strain 9","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17146","Streptococcus pneumoniae strain 109","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.8646","Staphylococcus aureus C00002653","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9894","Staphylococcus aureus C00007091","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17418","Streptococcus pneumoniae strain SC14-0613-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.8389","Staphylococcus aureus C00000831","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1131627,"1131627.3","Streptococcus pneumoniae GA60132","clindamycin","Resistant",">2",">","2",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9310","Staphylococcus aureus CGH3_05","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9349","Staphylococcus aureus TTSH3_09","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11156","Staphylococcus aureus strain 3688STDY6124951","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.8134","Staphylococcus aureus C00012806","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.7017","Streptococcus pneumoniae P311057-238","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1313,"1313.17251","Streptococcus pneumoniae strain 40","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.8209","Staphylococcus aureus C00013202","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+985002,"985002.143","Staphylococcus argenteus strain 3688STDY6125064","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.8173","Staphylococcus aureus C00013166","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11339","Staphylococcus aureus strain 3688STDY6124963","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1496,"1496.1176","Peptoclostridium difficile strain VL_0389","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9203","Staphylococcus aureus 010_09","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1066","Peptoclostridium difficile strain VL_0407","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9362","Staphylococcus aureus TTSH5_05","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1232","Peptoclostridium difficile strain VL_0023","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.987","Peptoclostridium difficile strain VL_0022","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9244","Staphylococcus aureus 069_02","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.7337","Staphylococcus aureus CGH5_09","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1489","Clostridioides difficile strain VL_0015","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17341","Streptococcus pneumoniae strain SC11-1576-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+760845,"760845.3","Streptococcus pneumoniae GA47751","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.8695","Staphylococcus aureus C00008948","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9407","Staphylococcus aureus WAU_9","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1105116,"1105116.3","Streptococcus pneumoniae GA56113","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+170573,"170573.15","Staphylococcus pettenkoferi strain 268","clindamycin","Susceptible","0.25","<=","0.25","mg/L","MIC",,"Vitek","BiomŽrieux","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17307","Streptococcus pneumoniae strain 92","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9270","Staphylococcus aureus 156_04","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1465","Clostridioides difficile strain VL_0156","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9213","Staphylococcus aureus 023_01","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11325","Staphylococcus aureus strain 3688STDY6125014","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9988","Staphylococcus aureus C00013207","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17305","Streptococcus pneumoniae strain 91","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17272","Streptococcus pneumoniae strain 60","clindamycin","Resistant","2",">","2","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9371","Staphylococcus aureus WAU_14","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11216","Staphylococcus aureus strain 3688STDY6124952","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9249","Staphylococcus aureus 082_03","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.16557","Staphylococcus aureus strain AR_0469","clindamycin","Resistant",">16",">","16","mg/L","MIC",,,,"CLSI",,,,,"Laboratory Method",,
+1280,"1280.8685","Staphylococcus aureus C00007094","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17437","Streptococcus pneumoniae strain SC15-0255-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.4953","Staphylococcus aureus P210436-23","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.11285","Staphylococcus aureus strain 3688STDY6124829","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.8520","Staphylococcus aureus C00000851","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9326","Staphylococcus aureus TTSH1_01","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1189","Peptoclostridium difficile strain VL_0439","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9422","Staphylococcus aureus C00000861","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.982","Peptoclostridium difficile strain VL_0237","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17136","Streptococcus pneumoniae strain 10","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.4985","Staphylococcus aureus P311014-182","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1313,"1313.17159","Streptococcus pneumoniae strain 120","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9423","Staphylococcus aureus C00000862","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+904782,"904782.3","Staphylococcus aureus subsp. aureus IS-111","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.8548","Staphylococcus aureus C00008960","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17383","Streptococcus pneumoniae strain SC12-4269-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+985002,"985002.81","Staphylococcus argenteus strain 3688STDY6125129","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9959","Staphylococcus aureus C00012816","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17397","Streptococcus pneumoniae strain SC13-3499-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.11354","Staphylococcus aureus strain 3688STDY6124979","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+985002,"985002.133","Staphylococcus argenteus strain 3688STDY6125084","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17386","Streptococcus pneumoniae strain SC13-0387-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9400","Staphylococcus aureus WAU_34","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11712","Staphylococcus aureus strain 3688STDY6124908","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9192","Staphylococcus aureus 003_06","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1413","Clostridioides difficile strain VL_0334","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1072","Peptoclostridium difficile strain VL_0240","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+760832,"760832.3","Streptococcus pneumoniae GA47283","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9893","Staphylococcus aureus C00007079","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9995","Staphylococcus aureus C00013219","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17284","Streptococcus pneumoniae strain 71","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9984","Staphylococcus aureus C00013194","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.8844","Staphylococcus aureus TTSH3_08","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9956","Staphylococcus aureus C00012813","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11264","Staphylococcus aureus strain 3688STDY6124859","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1496,"1496.1204","Peptoclostridium difficile strain VL_0075","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9308","Staphylococcus aureus CGH2_08","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.8366","Staphylococcus aureus C00007101","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9302","Staphylococcus aureus CGH1_07","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1245","Peptoclostridium difficile strain VL_0385","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17285","Streptococcus pneumoniae strain 72","clindamycin","Susceptible","0.03","<=","0.03","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.7441","Staphylococcus aureus C00007071","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17405","Streptococcus pneumoniae strain SC13-3976-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9188","Staphylococcus aureus 001_10","clindamycin","Susceptible",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9329","Staphylococcus aureus TTSH1_04","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.4937","Staphylococcus aureus P210337-115","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.7343","Staphylococcus aureus CGH4_09","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9252","Staphylococcus aureus 088_03","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9377","Staphylococcus aureus WAU_20","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11723","Staphylococcus aureus strain 3688STDY6124887","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+760780,"760780.3","Streptococcus pneumoniae GA16242","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9996","Staphylococcus aureus C00013220","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.938","Peptoclostridium difficile strain VL_0424","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.7361","Staphylococcus aureus 008_10","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11341","Staphylococcus aureus strain 3688STDY6124997","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9309","Staphylococcus aureus CGH2_09","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9269","Staphylococcus aureus 152_05","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.8722","Staphylococcus aureus C00001441","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.8178","Staphylococcus aureus C00013171","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17423","Streptococcus pneumoniae strain SC14-2030-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.11171","Staphylococcus aureus strain 3688STDY6124883","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.11288","Staphylococcus aureus strain 3688STDY6124824","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1496,"1496.1431","Clostridioides difficile strain VL_0275","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17230","Streptococcus pneumoniae strain 21","clindamycin","Susceptible","0.03","<=","0.03","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.11033","Staphylococcus aureus strain 3688STDY6124931","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.11245","Staphylococcus aureus strain 3688STDY6124895","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.8198","Staphylococcus aureus C00013191","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11295","Staphylococcus aureus strain 3688STDY6124812","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9932","Staphylococcus aureus C00012750","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17173","Streptococcus pneumoniae strain 134","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1211","Peptoclostridium difficile strain VL_0249","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17267","Streptococcus pneumoniae strain 55","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17358","Streptococcus pneumoniae strain SC11-4308-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9954","Staphylococcus aureus C00012811","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.1049","Peptoclostridium difficile strain VL_0118","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.927","Peptoclostridium difficile strain VL_0267","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9975","Staphylococcus aureus C00013176","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17215","Streptococcus pneumoniae strain 172","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9913","Staphylococcus aureus C00008959","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11172","Staphylococcus aureus strain 3688STDY6124881","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.4938","Staphylococcus aureus P210354-8","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9979","Staphylococcus aureus C00013185","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.8213","Staphylococcus aureus C00013206","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+760841,"760841.3","Streptococcus pneumoniae GA47562","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.7439","Staphylococcus aureus C00007072","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17144","Streptococcus pneumoniae strain 107","clindamycin","Susceptible","0.12","==","0.12","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.8136","Staphylococcus aureus C00012808","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11272","Staphylococcus aureus strain 3688STDY6124844","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.8118","Staphylococcus aureus C00012788","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.8760","Staphylococcus aureus C00007062","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17310","Streptococcus pneumoniae strain 96","clindamycin","Susceptible","0.03","<=","0.03","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.4930","Staphylococcus aureus P210184-226","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1496,"1496.1079","Peptoclostridium difficile strain VL_0178","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9381","Staphylococcus aureus WAU_25","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.8521","Staphylococcus aureus C00000850","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.1157","Peptoclostridium difficile strain VL_0104","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.11210","Staphylococcus aureus strain 3688STDY6125049","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.8357","Staphylococcus aureus C00007109","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+904787,"904787.3","Staphylococcus aureus subsp. aureus IS-189","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9964","Staphylococcus aureus C00012829","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11359","Staphylococcus aureus strain 3688STDY6124970","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9923","Staphylococcus aureus C00009017","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.1470","Clostridioides difficile strain VL_0145","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17313","Streptococcus pneumoniae strain 99","clindamycin","Resistant","2",">","2","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9918","Staphylococcus aureus C00008984","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.1475","Clostridioides difficile strain VL_0111","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17299","Streptococcus pneumoniae strain 86","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+985002,"985002.84","Staphylococcus argenteus strain 3688STDY6125122","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.16555","Staphylococcus aureus strain AR_0467","clindamycin","Resistant","<=0.25","<=","0.25","mg/L","MIC",,,,"CLSI",,,,,"Laboratory Method",,
+1496,"1496.1424","Clostridioides difficile strain VL_0293","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1094","Peptoclostridium difficile strain VL_0214","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.17671","Staphylococcus aureus strain AR_474","clindamycin","Resistant",">16",">","16","mg/L","MIC",,,,"CLSI",,,,,"Laboratory Method",,
+1280,"1280.8633","Staphylococcus aureus C00001384","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11315","Staphylococcus aureus strain 3688STDY6125025","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+760858,"760858.3","Streptococcus pneumoniae GA52612","clindamycin","Resistant",">2",">","2",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.8721","Staphylococcus aureus C00001448","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.6939","Streptococcus pneumoniae P110268-159","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1496,"1496.899","Peptoclostridium difficile strain VL_0002","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+760791,"760791.3","Streptococcus pneumoniae GA17570","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1313,"1313.17247","Streptococcus pneumoniae strain 37","clindamycin","Susceptible","0.03","<=","0.03","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17138","Streptococcus pneumoniae strain 101","clindamycin","Susceptible","0.25","==","0.25","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17185","Streptococcus pneumoniae strain 145","clindamycin","Susceptible","0.12","==","0.12","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9340","Staphylococcus aureus TTSH2_07","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9321","Staphylococcus aureus CGH5_08","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.1490","Clostridioides difficile strain VL_0020","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9986","Staphylococcus aureus C00013198","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9906","Staphylococcus aureus C00008629","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17218","Streptococcus pneumoniae strain 175","clindamycin","Susceptible","0.12","==","0.12","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17162","Streptococcus pneumoniae strain 123","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9372","Staphylococcus aureus WAU_15","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.8196","Staphylococcus aureus C00013189","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17256","Streptococcus pneumoniae strain 45","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17177","Streptococcus pneumoniae strain 138","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.8569","Staphylococcus aureus C00000840","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.912","Peptoclostridium difficile strain VL_0017","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.8368","Staphylococcus aureus C00007106","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1283,"1283.634","Staphylococcus haemolyticus strain 0054-1702-2009","clindamycin","Susceptible","<=0.25","<=","0.25","mg/L","MIC",,"Phoenix","Becton Dickinson","EUCAST",,,,,"Laboratory Method",,
+1280,"1280.9260","Staphylococcus aureus 102_07","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.17287","Streptococcus pneumoniae strain 74","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1089","Peptoclostridium difficile strain VL_0201","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9353","Staphylococcus aureus TTSH4_03","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.17197","Streptococcus pneumoniae strain 156","clindamycin","Susceptible","0.03","<=","0.03","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.11358","Staphylococcus aureus strain 3688STDY6124974","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1496,"1496.1096","Peptoclostridium difficile strain VL_0217","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17448","Streptococcus pneumoniae strain SC15-2565-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.7357","Staphylococcus aureus CGH1_10","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.17332","Streptococcus pneumoniae strain SC10-2650-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9909","Staphylococcus aureus C00008637","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.4933","Staphylococcus aureus P210290-129","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,
+1313,"1313.17312","Streptococcus pneumoniae strain 98","clindamycin","Resistant","2",">","2","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1402","Clostridioides difficile strain VL_0371","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17238","Streptococcus pneumoniae strain 29","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1127","Peptoclostridium difficile strain VL_0274","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+760840,"760840.3","Streptococcus pneumoniae GA47522","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1496,"1496.1007","Peptoclostridium difficile strain VL_0039","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.11248","Staphylococcus aureus strain 3688STDY6124889","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+760826,"760826.3","Streptococcus pneumoniae GA44500","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.7349","Staphylococcus aureus CGH6_08","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+985002,"985002.121","Staphylococcus argenteus strain 3688STDY6125115","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.4929","Staphylococcus aureus P210181-42","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1313,"1313.17270","Streptococcus pneumoniae strain 59","clindamycin","Resistant","2",">","2","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.8138","Staphylococcus aureus C00012810","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.4951","Staphylococcus aureus P210426-21","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1069624,"1069624.3","Streptococcus pneumoniae GA04216","clindamycin","Susceptible","<=0.06","<=","0.06",,,,,,,,,,,"Laboratory Method",,
+1313,"1313.17300","Streptococcus pneumoniae strain 87","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9402","Staphylococcus aureus WAU_36","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+760839,"760839.3","Streptococcus pneumoniae GA47502","clindamycin","Resistant",">2",">","2",,,,,,,,,,,"Laboratory Method",,
+1496,"1496.1040","Peptoclostridium difficile strain VL_0095","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.981","Peptoclostridium difficile strain VL_0088","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1394","Clostridioides difficile strain VL_0410","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1472","Clostridioides difficile strain VL_0139","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9339","Staphylococcus aureus TTSH2_05","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11352","Staphylococcus aureus strain 3688STDY6124981","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9251","Staphylococcus aureus 086_03","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+985002,"985002.111","Staphylococcus argenteus strain 3688STDY6125130","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1496,"1496.1035","Peptoclostridium difficile strain VL_0082","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.11236","Staphylococcus aureus strain 3688STDY6124906","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17250","Streptococcus pneumoniae strain 4","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.932","Peptoclostridium difficile strain VL_0304","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17392","Streptococcus pneumoniae strain SC13-1749-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1481","Clostridioides difficile strain VL_0091","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.4961","Staphylococcus aureus P210465-29","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+760797,"760797.3","Streptococcus pneumoniae GA19077","clindamycin","Susceptible","0.25","=","0.25",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.21074","Staphylococcus aureus strain 0137-2003-2005","clindamycin","Susceptible","==0.25","==","0.25","mg/L","MIC",,"Phoenix","Becton Dickinson","EUCAST",,,,,"Laboratory Method",,
+1280,"1280.9972","Staphylococcus aureus C00013167","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.1057","Peptoclostridium difficile strain VL_0155","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.11282","Staphylococcus aureus strain 3688STDY6124832","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.11306","Staphylococcus aureus strain 3688STDY6125038","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1496,"1496.1128","Peptoclostridium difficile strain VL_0277","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17354","Streptococcus pneumoniae strain SC11-3845-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.921","Peptoclostridium difficile strain VL_0077","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.8508","Staphylococcus aureus C00001405","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9293","Staphylococcus aureus 362_05","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1496,"1496.903","Peptoclostridium difficile strain VL_0024","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1069","Peptoclostridium difficile strain VL_0066","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.11177","Staphylococcus aureus strain 3688STDY6124851","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9219","Staphylococcus aureus 028_04","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11242","Staphylococcus aureus strain 3688STDY6124874","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.11310","Staphylococcus aureus strain 3688STDY6125033","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.11724","Staphylococcus aureus strain 3688STDY6124941","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.4978","Staphylococcus aureus P310821-173","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9729","Staphylococcus aureus C00001399","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11220","Staphylococcus aureus strain 3688STDY6124944","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.8634","Staphylococcus aureus C00001385","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17396","Streptococcus pneumoniae strain SC13-3157-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.4923","Staphylococcus aureus P210125-37","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+760784,"760784.3","Streptococcus pneumoniae GA17227","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+985002,"985002.135","Staphylococcus argenteus strain 3688STDY6125081","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17379","Streptococcus pneumoniae strain SC12-3273-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17449","Streptococcus pneumoniae strain SC15-3364-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.931","Peptoclostridium difficile strain VL_0302","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9891","Staphylococcus aureus C00007068","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17368","Streptococcus pneumoniae strain SC12-1056-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9246","Staphylococcus aureus 070_03","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9911","Staphylococcus aureus C00008949","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9208","Staphylococcus aureus 018_09","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1313,"1313.7016","Streptococcus pneumoniae P310937-212","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,
+760782,"760782.3","Streptococcus pneumoniae GA16833","clindamycin","Susceptible","0.12","=","0.12",,,,,,,,,,,"Laboratory Method",,
+1280,"1280.11252","Staphylococcus aureus strain 3688STDY6124884","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+985002,"985002.154","Staphylococcus argenteus strain 3688STDY6125080","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.4979","Staphylococcus aureus P310839-206","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9359","Staphylococcus aureus TTSH5_02","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.8177","Staphylococcus aureus C00013170","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11267","Staphylococcus aureus strain 3688STDY6124854","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1496,"1496.1422","Clostridioides difficile strain VL_0294","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.8638","Staphylococcus aureus C00008635","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1496,"1496.1493","Clostridioides difficile strain VL_0026","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1282,"1282.3129","Staphylococcus epidermidis strain 273","clindamycin","Resistant","8",">=","8","mg/L","MIC",,"Vitek","BiomŽrieux","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9384","Staphylococcus aureus WAU_28","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11722","Staphylococcus aureus strain 3688STDY6124830","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9258","Staphylococcus aureus 101_07","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9256","Staphylococcus aureus 100_06","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+760831,"760831.3","Streptococcus pneumoniae GA47281","clindamycin","Resistant",">2",">","2",,,,,,,,,,,"Laboratory Method",,
+1496,"1496.1421","Clostridioides difficile strain VL_0296","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1415","Clostridioides difficile strain VL_0324","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.16436","Staphylococcus aureus strain 0257-2201-2015","clindamycin","Resistant","==1","==","1","mg/L","MIC",,"Phoenix","Becton Dickinson","EUCAST",,,,,"Laboratory Method",,
+1280,"1280.4920","Staphylococcus aureus P210110-35","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9921","Staphylococcus aureus C00009006","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.4959","Staphylococcus aureus P210462-27","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9331","Staphylococcus aureus TTSH1_06","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.8562","Staphylococcus aureus C00009033","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.7009","Streptococcus pneumoniae P310544-189","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1313,"1313.6953","Streptococcus pneumoniae P210103-172","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+760878,"760878.3","Streptococcus pneumoniae EU-NP02","clindamycin","Resistant",">2",">","2",,,,,,,,,,,"Laboratory Method",,
+1496,"1496.1200","Peptoclostridium difficile strain VL_0129","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1496,"1496.1065","Peptoclostridium difficile strain VL_0352","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.11720","Staphylococcus aureus strain 3688STDY6125141","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.9968","Staphylococcus aureus C00013162","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+985002,"985002.96","Staphylococcus argenteus strain 3688STDY6125073","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+760821,"760821.3","Streptococcus pneumoniae GA44194","clindamycin","Resistant",">2",">","2",,,,,,,,,,,"Laboratory Method",,
+985002,"985002.117","Staphylococcus argenteus strain 3688STDY6125119","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.11317","Staphylococcus aureus strain 3688STDY6125024","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.8513","Staphylococcus aureus C00001402","clindamycin","Resistant",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.9228","Staphylococcus aureus 041_04","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.9931","Staphylococcus aureus C00012748","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17269","Streptococcus pneumoniae strain 58","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+985002,"985002.107","Staphylococcus argenteus strain 3688STDY6125134","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1280,"1280.11714","Staphylococcus aureus strain 3688STDY6124914","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17231","Streptococcus pneumoniae strain 22","clindamycin","Susceptible","0.03","<=","0.03","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.6947","Streptococcus pneumoniae P130025-195","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,
+1280,"1280.9928","Staphylococcus aureus C00012745","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1280,"1280.11270","Staphylococcus aureus strain 3688STDY6124845","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1313,"1313.17323","Streptococcus pneumoniae strain SC10-1181-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.8385","Staphylococcus aureus C00000837","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17367","Streptococcus pneumoniae strain SC12-1049-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1280,"1280.9283","Staphylococcus aureus 268_04","clindamycin","Resistant",,,,,"disk diffusion",,,,"CLSI",,,,,"Laboratory Method",,"25903077"
+1280,"1280.11337","Staphylococcus aureus strain 3688STDY6125000","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26806258"
+1496,"1496.1086","Peptoclostridium difficile strain VL_0197","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1313,"1313.17223","Streptococcus pneumoniae strain 18","clindamycin","Susceptible","0.06","==","0.06","mg/L","MIC",,"Trek sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1239","Peptoclostridium difficile strain VL_0257","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"
+1280,"1280.9730","Staphylococcus aureus C00001400","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"26686880"
+1313,"1313.17394","Streptococcus pneumoniae strain SC13-2480-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1313,"1313.17395","Streptococcus pneumoniae strain SC13-2679-P","clindamycin","Susceptible","0.12","<=","0.12","mg/L","MIC",,"Sensititre","Trek","CLSI",,,,,"Laboratory Method",,
+1496,"1496.1491","Clostridioides difficile strain VL_0014","clindamycin","Susceptible",,,,,,,,,,,,,,"Laboratory Method",,"27671088"

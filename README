@@ -1,0 +1,25 @@
+gen_tree.py
+classes: Node, LayerNode
+functions: generate_random_tree, generate_random_child
+description: functions and classes related to generating phylogenetic trees holding either training model or
+trainable model layers
+
+
+utils.py
+functions: train_valid_split_indices
+description: general purpose functions for performing ML experiments
+
+
+custom_layers.py
+classes: AdditionLayer, StaticAdditionLayer, MatmulLayer, StaticMatmulLayer
+description: contains custom keras layers used for constructing the experimental models
+
+
+custom_models.py
+classes: TreeModel, LinRegModel, TreeModelLogReg, LogRegModel
+description: defines the tree-style models and simple models for both regression and classification
+
+
+experiment.py
+functions: train_step, linreg_train_step, linreg_valid_step
+description: runs the training and comparison of a tree-model and simple model on a generated dataset
