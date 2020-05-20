@@ -17,7 +17,7 @@ Django==1.11.11
 entrypoints==0.2.3.post1
 h5py==2.7.1
 html5lib==0.999999999
-httplib2==0.9.2
+httplib2==0.18.0
 idna==2.6
 ipykernel==4.8.2
 ipython==5.5.0
