@@ -13,7 +13,7 @@ cycler==0.10.0
 decorator==4.1.2
 defer==1.0.6
 distro-info===0.18ubuntu0.18.04.1
-Django==1.11.11
+Django==1.11.29
 entrypoints==0.2.3.post1
 h5py==2.7.1
 html5lib==0.999999999
