@@ -4,7 +4,7 @@ This repository contains an implementation of the DendroNet model as described i
 
 # Quick Start
 
-Users looking to implement DendroNet on their own datasets are encouraged to use the example files in the dendronet_tutorials folder as a jumping off point. Requirements can be easily installed in a conda virtual environment using the instructions in requirements.txt
+Users looking to implement DendroNet on their own datasets are encouraged to use the example files in the dendronet_tutorials folder as a jumping off point. Requirements can be easily installed in a conda virtual environment using the instructions in [os]_requirements.txt
 
 # Method Description
 
