@@ -1,3 +1,5 @@
+Database for training available upon request
+
 gen_tree.py
 classes: Node, LayerNode
 functions: generate_random_tree, generate_random_child
