@@ -33,12 +33,17 @@ if __name__ == '__main__':
                         metavar='LF', help='file to look in for labels')
     args = parser.parse_args()
 
+    """
+    For Georgi: the data_tree structure is an instance of the PatricNode class in parse_patric_tree.py,
+    with the relevant features being name, is_leaf and descendants. name will store the ID if the current node is
+    a leaf and holds a bacteria species. Internal nodes will have a list of nodes stored in the descendants trait
+    """
     data_tree, leaves = load_tree_and_leaves(args.tree_path)
     # annotating leaves with labels and features
     labels_df = pd.read_csv(args.label_file, dtype=str)
 
     """
-    Georgi:
+    For Georgi:
     labels_df contains data about each species: it's ID, phenotype (y), and features (x) 
     The data is in an annoying format, here's a loop showing how to access it row-by-row
     and match it to a leaf in the 'leaves' object 
@@ -60,7 +65,8 @@ if __name__ == '__main__':
         -Each row corresponds to a parent node, and each column to a child node, i.e. a 1 is entered at 
         position (row 1, col 2) if the node corresponding to row 1 is the parent of the node corresponding to column 2
         
-        -The rows should be in descending order; i.e. row/col 0 is the root, row/col 1 and 2 are the first layer below the root
+        -The rows should be in descending order; i.e. row/col 0 is the root, row/col 1 is a node in the first layer 
+        below the root
         
         -For each row, we need a mapping which tells us the appropriate entry in X that stores info for the relevant 
         species. This could be a list of tuples, i.e. (parent-child-row-index, entry-in-X-index). I would suggest using 
