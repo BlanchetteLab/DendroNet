@@ -1,5 +1,8 @@
+import io
 import torch
 import numpy as np
+from Bio import Phylo
+
 
 
 def split_indices(idx_list, seed=0, train_percentage=0.7):
@@ -20,6 +23,7 @@ def split_indices(idx_list, seed=0, train_percentage=0.7):
     return train_idx, test_idx
 
 
+# todo: modify this to work with weighted paths as well
 """
 -This is for use on trees, use build_parent_path_mat_dag if the data is a non-tree DAG
 """
@@ -122,3 +126,27 @@ class IndicesDataset(torch.utils.data.Dataset):
         sample_idx = self.sample_indices[index]
 
         return sample_idx
+
+# adapted from https://biopython.org/wiki/Phylo_cookbook
+def newick_to_adjacency_matrix(tree_string, pops_list=None):
+    """Create an adjacency matrix (NumPy array) from clades/branches in tree.
+
+    Also returns a list of all clades in tree ("allclades"), where the position
+    of each clade in the list corresponds to a row and column of the numpy
+    array: a cell (i,j) in the array is 1 if there is a branch from allclades[i]
+    to allclades[j], otherwise 0.
+
+    Returns a tuple of (allclades, adjacency_matrix) where allclades is a list
+    of clades and adjacency_matrix is a NumPy 2D array.
+    """
+    tree = Phylo.read(io.StringIO(tree_string), "newick")
+
+    allclades = list(tree.find_clades(order="level"))
+    lookup = {}
+    for i, elem in enumerate(allclades):
+        lookup[elem] = i
+    adjmat = np.zeros((len(allclades), len(allclades)), dtype=int)
+    for parent in tree.find_clades(terminal=False, order="level"):
+        for child in parent.clades:
+            adjmat[lookup[parent], lookup[child]] = 1
+    return ([node.name for node in allclades], adjmat)
