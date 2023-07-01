@@ -27,7 +27,7 @@ if __name__ == '__main__':
     parser.add_argument('--runtest', dest='runtest', action='store_true')
     parser.add_argument('--no-runtest', dest='runtest', action='store_false')
     parser.set_defaults(runtest=False)
-    parser.add_argument('--tree-path', type=str, default=os.path.join('data_files', 'patric_tree_storage', 'betalactam')
+    parser.add_argument('--tree-path', type=str, default=os.path.join('data_files', 'patric_tree_storage', 'erythromycin')
                         , help='folder to look in for a stored tree structure')
     parser.add_argument('--label-file', type=str, default=os.path.join('data_files', 'betalactam_firmicutes_samples.csv'),
                         metavar='LF', help='file to look in for labels')
