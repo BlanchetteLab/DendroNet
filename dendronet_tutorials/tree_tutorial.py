@@ -130,6 +130,7 @@ for epoch in range(EPOCHS):
 
 # With training complete, we'll run the test set. We could use batching here as well if the test set was large
 with torch.no_grad():
+    # could batch this in the same way as training if memory requires
     test_nodes = np.asarray(path_tuples)[test_idx][:, 1]
     y_hat = dendronet.forward(X[test_idx], test_nodes)
     loss = loss_function(y_hat, y[test_idx])
