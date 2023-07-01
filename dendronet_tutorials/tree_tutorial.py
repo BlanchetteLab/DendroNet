@@ -32,17 +32,23 @@ For this tutorial, most of these will be randomly generated
 """
 
 # an arbitrary example tree
-newick_string = '(((species_0:1.00,species_1:1.00),(species_2:1.00),(species_3:1.00, species_4:1.00,4003:1.00),species_5:2.00));'
+species_names_set = ['species_0', 'species_1', 'species_2', 'species_3', 'species_4', 'species_5', 'species_6']
+newick_string = '(((species_0:1.00,species_1:1.00),(species_2:1.00),(species_3:1.00, species_4:1.00,species_5:1.00),species_6:2.00));'
 
 # generating random X and y
 X = np.random.normal(size=(100, 16))
 num_samples = X.shape[0]
 num_features = X.shape[1]
-y = np.ones(shape=num_samples)
+y = np.zeros(shape=num_samples)
+
+# the assignment of species to each sample in X
+species_names = np.random.choice(species_names_set, size=num_samples, replace=True)
 
 # parent_path orderd nodes and parent->child matrix for the newick string
 pp_ordered_nodes, parent_child = newick_to_adjacency_matrix(newick_string)
 
+# creating a mapping between each sample index and node in our parent_path
+path_tuples = [(idx, pp_ordered_nodes.index(species)) for idx, species in enumerate(species_names)]
 
 
 """
@@ -77,8 +83,8 @@ We can then use the IndicesDataset class to perform shuffle-batching during trai
 train_idx, test_idx = split_indices(range(len(y)))
 
 # creating idx dataset objects for batching
-train_set = IndicesDataset(train_idx)
-test_set = IndicesDataset(test_idx)
+train_set = IndicesDataset(np.asarray([path_tuples[idx] for idx in train_idx], dtype=np.int64))
+test_set = IndicesDataset(np.asarray([path_tuples[idx] for idx in test_idx], dtype=np.int64))
 
 # Setting some parameters for shuffle batch
 params = {'batch_size': BATCH_SIZE,
@@ -104,14 +110,18 @@ for epoch in range(EPOCHS):
     # we'll track the running loss over each batch so we can compute the average per epoch
     running_loss = 0.0
     # getting a batch of indices
-    for step, idx_batch in enumerate(tqdm(train_batch_gen)):
+    for step, batch_tuples in enumerate(tqdm(train_batch_gen)):
+        batch_samples = batch_tuples[:, 0]
+        batch_nodes = batch_tuples[:, 1]
+        batch_X = X[batch_samples]
+        batch_y = y[batch_samples]
         optimizer.zero_grad()
         # dendronet takes in a set of examples from X, and the corresponding column indices in the parent_path matrix
-        y_hat = dendronet.forward(X[idx_batch], idx_batch)
+        y_hat = dendronet.forward(X[batch_samples], batch_nodes)
         # collecting the two loss terms
         delta_loss = dendronet.delta_loss()
         # idx_batch is also used to fetch the appropriate entries from y
-        train_loss = loss_function(y_hat, y[idx_batch])
+        train_loss = loss_function(y_hat, y[batch_samples])
         running_loss += float(train_loss.detach().cpu().numpy())
         loss = train_loss + (delta_loss * DPF)
         loss.backward(retain_graph=True)
@@ -120,7 +130,8 @@ for epoch in range(EPOCHS):
 
 # With training complete, we'll run the test set. We could use batching here as well if the test set was large
 with torch.no_grad():
-    y_hat = dendronet.forward(X[test_idx], test_idx)
+    test_nodes = np.asarray(path_tuples)[test_idx][:, 1]
+    y_hat = dendronet.forward(X[test_idx], test_nodes)
     loss = loss_function(y_hat, y[test_idx])
     delta_loss = dendronet.delta_loss()
     print('Final Delta loss:', float(delta_loss.detach().cpu().numpy()))
